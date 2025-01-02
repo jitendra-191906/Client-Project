@@ -1,0 +1,101 @@
+/* testimonials.css */
+
+/* Style for the Testimonials section */
+.testimonials {
+      padding: 50px 20px;
+      background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+      text-align: center;
+    }
+    
+    .testimonials h2 {
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      color: #333;
+      text-transform: uppercase;
+    }
+    
+    .testimonials-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      justify-items: center;
+    }
+    
+    .testimonial-card {
+      background-color: #fff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 350px;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      position: relative;
+    }
+    
+    .testimonial-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+    }
+    
+    .testimonial-image-container {
+      position: relative;
+      height: 150px;
+      background-color: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .testimonial-image {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .testimonial-content {
+      padding: 20px;
+    }
+    
+    .testimonial-content h4 {
+      font-size: 1.3em;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .testimonial-content p {
+      font-size: 1em;
+      color: #555;
+      font-style: italic;
+      line-height: 1.5;
+    }
+    
+    /* Add some animation to the text */
+    .testimonial-content h4,
+    .testimonial-content p {
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+    
+    .testimonial-content h4 {
+      animation-delay: 0.2s;
+    }
+    
+    .testimonial-content p {
+      animation-delay: 0.4s;
+    }
+    
+    /* Animation for the fade-in effect */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
