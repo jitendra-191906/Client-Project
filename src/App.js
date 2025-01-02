@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Component/Header';
 import About from './Component/About';
-import Products from './Component/Products';
+import Product from './Component/Products';
 import Contact from './Component/Contact';
 import Footer from './Component/Footer';
 import Feature from './Component/Feature';
@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
       <About />
-      <Products />
+      <Product />
       <Feature/>
       <Testimonials/>
       <Contact />

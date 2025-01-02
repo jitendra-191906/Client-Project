@@ -1,0 +1,132 @@
+/* contactUs.css */
+
+/* Overall Contact Section Styling */
+.contact-us {
+      padding: 50px 20px;
+      background-color: #f4f4f9; /* Light, eye-comfortable background */
+      color: #333;
+      text-align: center;
+    }
+    
+    .contact-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Contact Header */
+    .contact-header {
+      margin-bottom: 30px;
+    }
+    
+    .contact-header h2 {
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #c69d16; /* Accent color for title */
+    }
+    
+    .contact-header p {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 10px;
+    }
+    
+    /* Contact Information Section */
+    .contact-info {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+    }
+    
+    .contact-detail {
+      text-align: center;
+      max-width: 250px;
+    }
+    
+    .contact-detail h3 {
+      font-size: 1.7em;
+      color: #c69d16; /* Accent color for icons */
+      margin-bottom: 10px;
+    }
+    
+    .contact-detail p {
+      font-size: 1.1em;
+      color: #555;
+    }
+    
+    .contact-detail strong {
+      font-weight: 700;
+      color: #333;
+    }
+    
+    /* Google Map Section */
+    .map-container {
+      margin-top: 40px;
+    }
+    
+    .map-container h3 {
+      font-size: 1.8em;
+      color:  #c69d16;
+      margin-bottom: 20px;
+    }
+    
+    .map-container iframe {
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Floating Action Button (FAB) */
+    .contact-fab {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 10;
+    }
+    
+    .fab-btn {
+      background: #ff6f61;
+      color: #fff;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 50%;
+      font-size: 1.5em;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease-in-out;
+    }
+    .fab-btn a{
+      text-decoration: none;
+
+
+}
+    
+    .fab-btn:hover {
+      background: #f07c3d;
+      transform: translateY(-5px);
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .contact-info {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .contact-info .contact-detail {
+        margin-bottom: 20px;
+      }
+    
+      .map-container iframe {
+        height: 300px;
+      }
+    
+      .fab-btn {
+        font-size: 1.2em;
+        padding: 12px 15px;
+      }
+     
+
+    }
+    
