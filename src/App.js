@@ -6,7 +6,7 @@ import Contact from './Component/Contact';
 import Footer from './Component/Footer';
 import Feature from './Component/Feature';
 import Testimonials from './Component/Testimonials';
-
+import Categories from './Component/Categories';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Header />
       <About />
       <Product />
+      <Categories/>
       <Feature/>
       <Testimonials/>
       <Contact />

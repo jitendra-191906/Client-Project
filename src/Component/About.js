@@ -6,13 +6,14 @@ function About() {
 
   return (
     <>
-    <div className="hero">
+   
+      <section id="about" className="about">
+      <div className="hero">
         <h1>Welcome to Jaipur Tiles & Granite to Beautify Your Space</h1>
       </div>
       <div className="bggroungimage">
         <img src={background} alt="" />
       </div>
-      <section id="about" className="about">
         <h2>About Us</h2>
         <p>
         We are a leading provider of high-quality tiles, marble, and granite

@@ -19,7 +19,7 @@ const Footer = () => {
             <a href="#header">🏠 Home</a>
             <a href="#products">🛒 Products</a>
             <a href="#about">📖 About Us</a>
-            <a href="#contact-us">📍 Contact Us</a>
+            <a href="#contact">📍 Contact Us</a>
             <a href="#privacy-policy">🔒 Privacy Policy</a>
             <a href="#terms">📝 Terms of Service</a>
           </div>
