@@ -1,114 +1,58 @@
-import React from "react";
-import "../Style/Categories.css";
+// Categories.js
+import React from 'react';
+import '../Style/categories.css'; // Link to the CSS file for styling
 
-// Sample images
-import bathroomTile from "../Images/bathroom-tile.jpg";
-import kitchenTile from "../Images/kitchen-tile.jpg";
-import outdoorTile from "../Images/outdoor-tile.jpg";
-import flooringMarble from "../Images/flooring-marble.jpg";
-import wallMarble from "../Images/wall-marble.jpg";
-import decorativeMarble from "../Images/decorative-marble.jpg";
-import countertopGranite from "../Images/countertop-granite.jpg";
-import outdoorGranite from "../Images/outdoor-granite.jpg";
-import decorativeGranite from "../Images/decorative-granite.jpg";
+import marbleImage from '../Images/Marbel1.jpeg';
+import graniteImage from '../Images/Granite.jpeg';
+import bathroomTilesImage from '../Images/bathroom-tile.jpg';
+import kitchenTilesImage from '../Images/kitchen-tile.jpg';
+import floorTilesImage from '../Images/flooring-marble.jpg';
 
 const Categories = () => {
   const categories = [
     {
-      id: 1,
-      name: "Tiles",
-      description: "Explore a wide range of stylish tiles for every space.",
-      varieties: [
-        {
-          name: "Bathroom Tiles",
-          image: bathroomTile,
-          description: "Waterproof and elegant tiles perfect for bathrooms.",
-        },
-        {
-          name: "Kitchen Tiles",
-          image: kitchenTile,
-          description: "Durable and stain-resistant tiles for kitchens.",
-        },
-        {
-          name: "Outdoor Tiles",
-          image: outdoorTile,
-          description: "Weather-resistant tiles for outdoor spaces.",
-        },
-      ],
-    },
-    {
-      id: 2,
       name: "Marble",
-      description:
-        "Add a touch of luxury with our premium marble collections.",
-      varieties: [
-        {
-          name: "Flooring Marble",
-          image: flooringMarble,
-          description: "Durable and elegant marble for flooring.",
-        },
-        {
-          name: "Wall Marble",
-          image: wallMarble,
-          description: "Stylish marble to enhance your walls.",
-        },
-        {
-          name: "Decorative Marble",
-          image: decorativeMarble,
-          description: "Specially designed marble for decorative purposes.",
-        },
-      ],
+      image: marbleImage,
+      description: "Elegant and luxurious stone for high-end interiors."
     },
     {
-      id: 3,
       name: "Granite",
-      description:
-        "Discover versatile and durable granites for all applications.",
-      varieties: [
-        {
-          name: "Countertop Granite",
-          image: countertopGranite,
-          description: "Strong and elegant granite for countertops.",
-        },
-        {
-          name: "Outdoor Granite",
-          image: outdoorGranite,
-          description: "Granite ideal for outdoor applications.",
-        },
-        {
-          name: "Decorative Granite",
-          image: decorativeGranite,
-          description: "Granite designed for decorative elements.",
-        },
-      ],
+      image: graniteImage,
+      description: "Durable and strong stone perfect for kitchens and countertops."
     },
+    {
+      name: "Bathroom Tiles",
+      image: bathroomTilesImage,
+      description: "Waterproof and stylish tiles for your bathroom."
+    },
+    {
+      name: "Kitchen Tiles",
+      image: kitchenTilesImage,
+      description: "Stylish and easy-to-clean tiles for the kitchen."
+    },
+    {
+      name: "Floor Tiles",
+      image: floorTilesImage,
+      description: "Durable tiles for any flooring requirement."
+    }
   ];
 
   return (
     <section className="categories">
-      <h2>Explore Our Product Categories</h2>
-      {categories.map((category) => (
-        <div className="category-section" key={category.id}>
-          {/* Category Header */}
-          <div className="category-header">
-            <h3>{category.name}</h3>
-            <p>{category.description}</p>
+      <h2>Our Categories</h2>
+      <div className="category-grid">
+        {categories.map((category, index) => (
+          <div key={index} className="category-card">
+            <img src={category.image} alt={category.name} className="category-image" />
+            <div className="category-info">
+              <h3>{category.name}</h3>
+              <p>{category.description}</p>
+            </div>
           </div>
-
-          {/* Variety Grid */}
-          <div className="variety-grid">
-            {category.varieties.map((variety, index) => (
-              <div className="variety-card" key={index}>
-                <img src={variety.image} alt={variety.name} />
-                <h4>{variety.name}</h4>
-                <p>{variety.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </section>
   );
-};
+}
 
 export default Categories;
