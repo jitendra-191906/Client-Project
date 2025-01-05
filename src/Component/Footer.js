@@ -25,45 +25,6 @@ const Footer = () => {
           <div className="footer-company-text">
             Jaipur Tiles and granites to provide elegant look to your space
           </div>
-        </div>
-        <div className="footer_about_section">
-          <div> Home</div>
-          <div> Products</div>
-          <div> About Us</div>
-          <div> Contact Us</div>
-          <div> Sitemap</div>
-        </div>
-        <div className="footer_contact_section">
-          <div className="foocon">
-            <div className="foocon_img">
-            <img src={ContactImg} alt="contact logo" />
-
-            </div>
-            <div className="foocon_text">
-
-              +91 9694317171 / 9694177771
-            </div>
-
-          </div>
-          <div className="foocon">
-            <div className="foocon_img">
-              <img src={LocationImg} alt="location logo" />
-            </div>
-            <div className="foocon_text">
-
-              Near HP Petrol Pump,
-              Near Bharat Petrol Pump,
-              Kalwad Road, Hathoj, Jaipur
-            </div>
-          </div>
-          <div className="foocon">
-            <div className="foocon_img">
-              <img src={EmailImg} alt="email logo" />
-            </div>
-            <div className="foocon_text">
-              jaipurtilesandgranite@gmail.com
-            </div>
-          </div>
           <div className="social_media">
             <div className="icon">
               <img src={Instagram} alt="Instagram" />
@@ -79,6 +40,47 @@ const Footer = () => {
             </div>
           </div>
 
+        </div>
+        <div className="footer_about_section">
+          <div className="about_item"> Home</div>
+          <div className="about_item"> Products</div>
+          <div className="about_item"> About Us</div>
+          <div className="about_item"> Contact Us</div>
+          <div className="about_item"> Sitemap</div>
+        </div>
+        <div className="footer_contact_section">
+          <div className="foocon">
+            <div className="foocon_img">
+              <img src={ContactImg} alt="contact logo" />
+
+            </div>
+            <div className="foocon_text">
+
+              +91 9694317171 / 9694177771
+            </div>
+
+          </div>
+          <div className="foocon">
+            <div className="foocon_img">
+              <img src={LocationImg} alt="location logo" />
+            </div>
+            <div className="foocon_text">
+              <p> Near HP Petrol Pump,<br />
+                Near Bharat Petrol Pump,<br />
+                Kalwad Road, Hathoj, Jaipur</p>
+
+            </div>
+          </div>
+          <div className="foocon">
+            <div className="foocon_img">
+              <img src={EmailImg} alt="email logo" />
+            </div>
+            <div className="foocon_text">
+              jaipurtilesandgranite@gmail.com
+            </div>
+          </div>
+          
+          
         </div>
       </div>
       <hr className="hrtag" />
