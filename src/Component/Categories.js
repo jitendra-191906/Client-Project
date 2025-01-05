@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Style/Categories.css'; // Link to the CSS file for styling
+import '../Style/categories.css'; // Link to the CSS file for styling
 
 import marbleImage from '../Images/Marbel.png';
 import graniteImage from '../Images/Granite.png';

@@ -1,24 +1,14 @@
-/* Overall Footer Styling */
 .footer {
   background-color: black;
   color: #f4f4f4;
-  padding: 40px 25px;
-  /* font-family: 'Arial', sans-serif; */
   border-top: 3px solid hsl(51, 100%, 48%);
-  width: auto;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-}
+  padding-top: 10px;
+  padding: 5px 0px;
+  
 
-/* .footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 0;
-  width: auto;
-} */
+}
 
 .footer-top-sec {
   display: flex;
@@ -27,22 +17,22 @@
   align-items: flex-start;
 }
 
+
 .footer-bottom-sec {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: baseline;
-  padding: 5px 0px;
+  font-size: 1.4rem;
 }
 
-/* Logo Section */
 .footer-logo-section {
-  width: 22%;
+  width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 0px 10px;
+  gap: 1.5rem;
 }
 
 .footer-company-text {
@@ -50,176 +40,49 @@
   font-size: 1.4rem;
 }
 
-.footer-logo-img {
-  width: 70%;
-  height: -webkit-fill-available;
-}
 
-/* Quick Links Section */
-.footer-links-section {
-  margin-bottom: 20px;
-}
-
-.footer-links h4 {
-  font-size: 1.6em;
-  /* margin-bottom: 20px; */
-  color: #ff6f61;
-  /* Add some contrast to section titles */
-}
-
-.footer-links-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-
-.footer-links-grid a {
-  text-decoration: none;
-  color: #f4f4f4;
-  font-size: 1.1em;
-  transition: color 0.3s ease;
-}
-
-.footer-links-grid a:hover {
-  color: #ff6f61;
-  text-decoration: underline;
-}
-
-/* Social Media Section */
-.footer-social {
-  flex: 1 1 30%;
-  text-align: center;
-}
-
-.footer-social h4 {
-  font-size: 1.6em;
-  margin-bottom: 20px;
-  color: #ff6f61;
-  /* Matching accent color */
-}
-
-.social-icons {
+.footer_about_section{
   display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.social-icon {
-  font-size: 1.8em;
-  color: #f4f4f4;
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.social-icon:hover {
-  color: #ff6f61;
-  transform: scale(1.1);
-  /* Add a slight zoom effect */
-}
-
-/* Newsletter Section */
-.footer-newsletter {
-  background-color: #1d2731;
-  padding: 30px 20px;
+  flex-direction: column;
   text-align: center;
-  margin-top: 40px;
-}
+  padding: 5px 0px;
+  gap: 3rem;
+  font-size: 1.4rem;
+  width: 25%;
 
-.footer-newsletter h4 {
-  font-size: 1.8em;
-  color: #f4f4f4;
-  margin-bottom: 15px;
-}
 
-.footer-newsletter p {
-  font-size: 1.2em;
-  color: #f4f4f4;
-  margin-bottom: 15px;
 }
-
-.newsletter-input {
+.footer_contact_section{
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px 0px;
+  padding-right: 5px;
+  gap: 3rem;
+  width: 50%;
+
+}
+.foocon{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 1.4rem;
 }
 
-.newsletter-input input {
-  padding: 10px 15px;
-  font-size: 1.1em;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  outline: none;
-  width: 300px;
+.foocon_img img{
+  width: 20%;
+}
+.icon img {
+  width:20%;
+}
+.social_media{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+
 }
 
-.newsletter-input button {
-  padding: 10px 20px;
-  background-color: #ff6f61;
-  border: none;
-  border-radius: 20px;
-  font-size: 1.1em;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.newsletter-input button:hover {
-  background-color: #f07c3d;
-  transform: translateY(-2px);
-  /* Slight upward movement */
-}
-
-/* Responsive Design */
-
-/* For tablets and smaller devices (max-width: 768px) */
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-logo-section,
-  .footer-links,
-  .footer-social {
-    flex: 1 1 100%;
-    margin-bottom: 30px;
-  }
-
-  .footer-links-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .newsletter-input {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .newsletter-input input {
-    width: 100%;
-  }
-}
-
-/* For mobile phones (max-width: 480px) */
-@media (max-width: 480px) {
-  .footer h4 {
-    font-size: 1.4em;
-  }
-
-  .footer-links-grid a {
-    font-size: 1em;
-  }
-
-  .social-icon {
-    font-size: 1.5em;
-  }
-
-  .newsletter-input input {
-    font-size: 1em;
-    padding: 8px 12px;
-  }
-
-  .newsletter-input button {
-    font-size: 1em;
-    padding: 8px 15px;
-  }
-}
+/* .hrtag{
+  color: #701a7f;
+} */

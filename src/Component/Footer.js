@@ -1,73 +1,92 @@
 import React from "react";
 import "../Style/footer.css";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"; // Social Media Icons
-import LogoImage from '../Images/Logo.png'; // Assuming your logo is stored here
+import LogoImage from '../Images/Logo.png';
+import ContactImg from '../Images/contactimg.png'
+import LocationImg from '../Images/locationimg.png'
+import EmailImg from '../Images/emailimg.png'
+import Instagram from '../Images/instagram.png';
+import Youtube from '../Images/youtube.png';
+import Whatsapp from '../Images/whatsapp.png';
+import Linkedin from '../Images/linkedin.png';
+
 
 const Footer = () => {
   return (
     <footer className="footer">
-
       <div className="footer-top-sec ">
-
         <div className="footer-logo-section">
-          <img
-            src={LogoImage}
-            alt="logo"
-            className="footer-logo-img"
-          />
-
-          <p className="footer-company-text">
-            Jaipur Tiles and granites to provide elegant look to your space
-          </p>
-        </div>
-
-        <div className="footer-links-section">
-          <div>🏠 Home</div>
-          <div>🛒 Products</div>
-          <div>📖 About Us</div>
-          <div>📍 Contact Us</div>
-          <div>🔒 Privacy Policy</div>
-          <div>📝 Terms of Service</div>
-        </div>
-
-        <div className="footer-links-section">
-          <div>🏠 Home</div>
-          <div>🛒 Products</div>
-          <div>📖 About Us</div>
-          <div>📍 Contact Us</div>
-          <div>🔒 Privacy Policy</div>
-          <div>📝 Terms of Service</div>
-        </div>
-
-        {/* Social Media Links Section */}
-        {/* <div className="footer-social">
-          <h4>Connect With Us</h4>
-          <div className="social-icons">
-            <a href="#" className="social-icon facebook" aria-label="Facebook">
-              <FaFacebook />
-            </a>
-            <a href="#" className="social-icon twitter" aria-label="Twitter">
-              <FaTwitter />
-            </a>
-            <a href="#" className="social-icon instagram" aria-label="Instagram">
-              <FaInstagram />
-            </a>
-            <a href="#" className="social-icon linkedin" aria-label="LinkedIn">
-              <FaLinkedin />
-            </a>
+          <div className="footer_logo_img">
+            <img
+              src={LogoImage}
+              alt="logo"
+              className="footer-logo-img"
+            />
           </div>
-        </div> */}
+          <div className="footer-company-text">
+            Jaipur Tiles and granites to provide elegant look to your space
+          </div>
+        </div>
+        <div className="footer_about_section">
+          <div> Home</div>
+          <div> Products</div>
+          <div> About Us</div>
+          <div> Contact Us</div>
+          <div> Sitemap</div>
+        </div>
+        <div className="footer_contact_section">
+          <div className="foocon">
+            <div className="foocon_img">
+            <img src={ContactImg} alt="contact logo" />
 
+            </div>
+            <div className="foocon_text">
+
+              +91 9694317171 / 9694177771
+            </div>
+
+          </div>
+          <div className="foocon">
+            <div className="foocon_img">
+              <img src={LocationImg} alt="location logo" />
+            </div>
+            <div className="foocon_text">
+
+              Near HP Petrol Pump,
+              Near Bharat Petrol Pump,
+              Kalwad Road, Hathoj, Jaipur
+            </div>
+          </div>
+          <div className="foocon">
+            <div className="foocon_img">
+              <img src={EmailImg} alt="email logo" />
+            </div>
+            <div className="foocon_text">
+              jaipurtilesandgranite@gmail.com
+            </div>
+          </div>
+          <div className="social_media">
+            <div className="icon">
+              <img src={Instagram} alt="Instagram" />
+            </div>
+            <div className="icon">
+              <img src={Youtube} alt="Youtube" />
+            </div>
+            <div className="icon">
+              <img src={Whatsapp} alt="Whatsapp" />
+            </div>
+            <div className="icon">
+              <img src={Linkedin} alt="Linkedin" />
+            </div>
+          </div>
+
+        </div>
       </div>
-
+      <hr className="hrtag" />
       <div className="footer-bottom-sec">
         <p>
           &copy; 2025 All rights reserved.
         </p>
       </div>
-
-      {/* </div> */}
-
     </footer>
   );
 };
