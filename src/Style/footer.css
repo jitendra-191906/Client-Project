@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(62, 21, 36);
+  background-color: rgb(9, 9, 9);
   color: #f4f4f4;
   border-top: 3px solid hsl(51, 100%, 48%);
   display: flex;
@@ -20,6 +20,7 @@
   align-items: flex-start;
 
 }
+
 
 .footer-bottom-sec {
 
