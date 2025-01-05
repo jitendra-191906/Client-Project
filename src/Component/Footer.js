@@ -6,27 +6,41 @@ import LogoImage from '../Images/Logo.png'; // Assuming your logo is stored here
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-container">
-        {/* Logo Section */}
+
+      <div className="footer-top-sec ">
+
         <div className="footer-logo-section">
-          <img src={LogoImage} alt="Stone Showroom Logo" className="footer-logo-img" />
+          <img
+            src={LogoImage}
+            alt="logo"
+            className="footer-logo-img"
+          />
+
+          <p className="footer-company-text">
+            Jaipur Tiles and granites to provide elegant look to your space
+          </p>
         </div>
 
-        {/* Quick Links Section */}
-        <div className="footer-links">
-          <h4>Quick Links</h4>
-          <div className="footer-links-grid">
-            <a href="#header">🏠 Home</a>
-            <a href="#products">🛒 Products</a>
-            <a href="#about">📖 About Us</a>
-            <a href="#contact">📍 Contact Us</a>
-            <a href="#privacy-policy">🔒 Privacy Policy</a>
-            <a href="#terms">📝 Terms of Service</a>
-          </div>
+        <div className="footer-links-section">
+          <div>🏠 Home</div>
+          <div>🛒 Products</div>
+          <div>📖 About Us</div>
+          <div>📍 Contact Us</div>
+          <div>🔒 Privacy Policy</div>
+          <div>📝 Terms of Service</div>
+        </div>
+
+        <div className="footer-links-section">
+          <div>🏠 Home</div>
+          <div>🛒 Products</div>
+          <div>📖 About Us</div>
+          <div>📍 Contact Us</div>
+          <div>🔒 Privacy Policy</div>
+          <div>📝 Terms of Service</div>
         </div>
 
         {/* Social Media Links Section */}
-        <div className="footer-social">
+        {/* <div className="footer-social">
           <h4>Connect With Us</h4>
           <div className="social-icons">
             <a href="#" className="social-icon facebook" aria-label="Facebook">
@@ -42,12 +56,18 @@ const Footer = () => {
               <FaLinkedin />
             </a>
           </div>
-        </div>
-        <p>&copy; 2025 Jaipur Tiles & Granites Showroom. <br />All rights reserved.</p>
+        </div> */}
 
       </div>
 
-     
+      <div className="footer-bottom-sec">
+        <p>
+          &copy; 2025 All rights reserved.
+        </p>
+      </div>
+
+      {/* </div> */}
+
     </footer>
   );
 };

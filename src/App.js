@@ -13,13 +13,13 @@ function App() {
   return (
     <>
       <Header />
-      <SlideShow/>
-      <Categories/>
-      <About />
-      <Product />
-      <Feature/>
-      <Testimonials/>
-      <Contact />
+      {/* <SlideShow/> */}
+      {/* <Categories/> */}
+      {/* <About /> */}
+      {/* <Product /> */}
+      {/* <Feature/> */}
+      {/* <Testimonials/> */}
+      {/* <Contact /> */}
       <Footer />
     </>
   );

@@ -1,49 +1,70 @@
 /* Overall Footer Styling */
 .footer {
-  background-color: #232f3e; /* Matches the header background color */
-  color: #f4f4f4; /* Text color for eye comfort */
-  padding: 40px 20px;
-  font-family: 'Arial', sans-serif;
-  border-top: 3px solid hsl(51, 100%, 48%); /* Accent border for style */
+  background-color: black;
+  color: #f4f4f4;
+  padding: 40px 25px;
+  /* font-family: 'Arial', sans-serif; */
+  border-top: 3px solid hsl(51, 100%, 48%);
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.footer-container {
+/* .footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
+  width: auto;
+} */
+
+.footer-top-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-bottom-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  padding: 5px 0px;
 }
 
 /* Logo Section */
 .footer-logo-section {
-  flex: 1 1 30%;
-  text-align: left;
-  margin-bottom: 20px; /* Adjust spacing for better alignment */
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+
+.footer-company-text {
+  text-align: center;
+  font-size: 1.4rem;
 }
 
 .footer-logo-img {
   width: 70%;
-  height: auto;
-}
-
-.footer-logo-section p {
-  font-size: 1.1em;
-  line-height: 1.6;
-  margin: 0;
+  height: -webkit-fill-available;
 }
 
 /* Quick Links Section */
-.footer-links {
-  flex: 1 1 30%;
-  margin-bottom: 20px; /* Consistent spacing */
+.footer-links-section {
+  margin-bottom: 20px;
 }
 
 .footer-links h4 {
   font-size: 1.6em;
-  margin-bottom: 20px;
-  color: #ff6f61; /* Add some contrast to section titles */
+  /* margin-bottom: 20px; */
+  color: #ff6f61;
+  /* Add some contrast to section titles */
 }
 
 .footer-links-grid {
@@ -73,7 +94,8 @@
 .footer-social h4 {
   font-size: 1.6em;
   margin-bottom: 20px;
-  color: #ff6f61; /* Matching accent color */
+  color: #ff6f61;
+  /* Matching accent color */
 }
 
 .social-icons {
@@ -90,7 +112,8 @@
 
 .social-icon:hover {
   color: #ff6f61;
-  transform: scale(1.1); /* Add a slight zoom effect */
+  transform: scale(1.1);
+  /* Add a slight zoom effect */
 }
 
 /* Newsletter Section */
@@ -141,7 +164,8 @@
 
 .newsletter-input button:hover {
   background-color: #f07c3d;
-  transform: translateY(-2px); /* Slight upward movement */
+  transform: translateY(-2px);
+  /* Slight upward movement */
 }
 
 /* Responsive Design */
