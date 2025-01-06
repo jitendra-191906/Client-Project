@@ -5,7 +5,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 10px 0px;
+  padding: 25px 10px;
+  gap: 40px;
 }
 
 .footer_logo_img img {
@@ -17,14 +18,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 
 }
 
 
 .footer-bottom-sec {
-
-  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+  font-size: 1.1rem;
 }
 
 .footer-logo-section {
@@ -32,10 +34,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
   width: 25%;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   gap: 10px;
 
 }
@@ -47,39 +49,68 @@
 .footer_about_section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  font-size: 1.4rem;
-  gap: 1.2rem;
-  padding-top: 5rem;
+  justify-content: center;
+  font-size: 1.2rem;
+  gap: 9px;
 }
 
 .footer_contact_section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-top: 5rem;
-  padding-right: 2rem;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  width: 30%;
 }
 
 .foocon {
   display: flex;
   flex-direction: row;
-  font-size: 1.4rem;
-  justify-content: space-between;
+  font-size: 1.2rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
 
+.foocon_img {
+  width: 30px;
+  height: 30px;
 }
 
 .foocon_img img {
-  width: 20%;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+.foocon_text{
+  max-width: 90%;
+  text-align: left;
+  word-wrap: break-word;
 }
 
 .social_media {
   display: flex;
   flex-direction: row;
   padding-top: 2rem;
+  width: -webkit-fill-available;
+  justify-content: center;
 }
 
-.icon img {
-  width: 30%;
+.social-media-inner {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 50%;
+}
+
+.social-media-icon-sec {
+  width: 20px;
+  height: 20px;
+}
+
+.social-media-icon {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
