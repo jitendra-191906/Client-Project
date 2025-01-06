@@ -1,12 +1,12 @@
 .navbar {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items:center;
     background: #f4f4f9;
     position: sticky;
-    justify-content:center;
-    gap: 1000px;
-    font-weight: 400;
     font-size: 1.1rem;
+    letter-spacing: 2px;
   }
 
 .navbar_logo{
@@ -20,10 +20,9 @@
 .navbar_links{
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    gap: 80px;
+    justify-content: space-between;
+    width: 60%;
 }
-
 .navbar_logo img:hover {
     transform: scale(1.1);
 }

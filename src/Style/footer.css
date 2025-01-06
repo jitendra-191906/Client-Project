@@ -7,6 +7,7 @@
   text-align: center;
   padding: 25px 10px;
   gap: 40px;
+  letter-spacing: 2px;
 }
 
 .footer_logo_img img {
@@ -52,6 +53,11 @@
   justify-content: center;
   font-size: 1.2rem;
   gap: 9px;
+
+}
+.about_item:hover{
+    color: #007bff;
+    cursor: pointer;
 }
 
 .footer_contact_section {
@@ -70,6 +76,10 @@
   justify-content: flex-start;
   align-items: center;
   gap: 12px;
+}
+.foocon:hover{
+  color: #007bff;
+  cursor: pointer;
 }
 
 .foocon_img {
@@ -108,6 +118,10 @@
 .social-media-icon-sec {
   width: 20px;
   height: 20px;
+}
+.social-media-icon-sec:hover{
+  color: #007bff;
+  cursor: pointer;
 }
 
 .social-media-icon {
