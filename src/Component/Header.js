@@ -21,49 +21,56 @@ function Header() {
       <nav
         className="navbar"
       >
-        <div className="navbar-logo">
+        <div className="navbar_logo">
           <img
             src={img1}
             alt="Company Logo"
+            className="logo"
           />
         </div>
 
         {/* Navbar Links */}
         <div
-          className={`navbar-links-sec`}
+          className={`navbar_links`}
         >
           <div
             onClick={() => handleScrollToContent(HOME)}
+            className={`navbar_items`}
+
           >
             Home
           </div>
           <div
             onClick={() => handleScrollToContent(ABOUT)}
+            className={`navbar_items`}
+
           >
             About
           </div>
           <div
             onClick={() => handleScrollToContent(HOME)}
+            className={`navbar_items`}
+
           >
             Products
           </div>
           <div
             onClick={() => handleScrollToContent(TESTIMONIALS)}
+            className={`navbar_items`}
+
           >
             Testimonials
           </div>
           <div
             onClick={() => handleScrollToContent(CONNECT)}
+            className={`navbar_items`}
+
           >
             Contact
           </div>
         </div>
 
       </nav>
-
-      {/* <div className="hero">
-        <h1>Welcome to Jaipur Tiles & Granite to Beautify Your Space</h1>
-      </div> */}
     </>
   );
 }
