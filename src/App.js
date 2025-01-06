@@ -17,7 +17,7 @@ function App() {
       <Categories/>
       {/* <About /> */}
       {/* <Product /> */}
-      {/* <Feature/> */}
+      <Feature/>
       {/* <Testimonials/> */}
       {/* <Contact /> */}
       <Footer />
