@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
       {/* <SlideShow/> */}
-      {/* <Categories/> */}
+      <Categories/>
       {/* <About /> */}
       {/* <Product /> */}
       {/* <Feature/> */}

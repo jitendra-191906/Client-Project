@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Style/categories.css'; // Link to the CSS file for styling
+import '../Style/categories.css';
 
 import marbleImage from '../Images/Marbel.png';
 import graniteImage from '../Images/Granite.png';
@@ -17,18 +17,41 @@ const Categories = () => {
   ];
 
   return (
-    <section className="categories">
-      <h2>Our Categories</h2>
-      <div className="category-grid">
-        {categories.map((category, index) => (
-          <div key={index} className="category-card">
-            <div className="image-container">
-              <img src={category.image} alt={category.name} className="category-image" />
-            </div>
-            <p className="category-name">{category.name}</p>
-          </div>
-        ))}
+    <section className="categories-section">
+
+      <div className="categories-section-top">
+        <h3>Our Categories</h3>
       </div>
+
+      <div className="categories-section-bottom">
+        {
+          categories.map((category, index) => {
+            return (
+              <React.Fragment key={index}>
+                <div
+                  key={index}
+                  className="category-card-layout"
+                >
+
+                  <div className="category-card-image-container">
+                    <img
+                      src={category.image}
+                      alt={category.name}
+                      className="category-card-image"
+                    />
+                  </div>
+
+                  <p className="category-card-name">
+                    {category.name}
+                  </p>
+
+                </div>
+              </React.Fragment>
+            )
+          })
+        }
+      </div>
+      
     </section>
   );
 };
