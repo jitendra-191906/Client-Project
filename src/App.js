@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       <Header />
-      {/* <SlideShow/> */}
+      <SlideShow/>
       <Categories/>
-      {/* <About /> */}
+      <About />
       {/* <Product /> */}
       <Feature/>
       {/* <Testimonials/> */}
