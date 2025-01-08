@@ -1,59 +1,84 @@
-// Testimonials.js
 import React from "react";
-import "../Style/testimonials.css"; 
-import customer1 from '../Images/cus1.jpg';
-import customer2 from '../Images/cus2.jpeg';
+import "../Style/testimonials.css";
+import customer1 from '../Images/cust1.png';
+import customer2 from '../Images/cust2.png';
 import customer3 from '../Images/cust3.jpg';
 
-function Testimonials ()  {
-  const testimonials = [
-    {
-      id: 1,
-      name: "John Doe",
-      message:
-        "The marble flooring I got transformed my living room. The elegance and quality are unmatched. Highly recommend it!",
-      image: customer1, // Replace with actual image URL
-    },
-    {
-      id: 2,
-      name: "Jane Smith",
-      message:
-        "I used these tiles in my bathroom, and the design options were endless. The quality is superb, and cleaning is a breeze!",
-      image: customer2, // Replace with actual image URL
-    },
-    {
-      id: 3,
-      name: "Mike Johnson",
-      message:
-        "The granite countertops are perfect for my kitchen. They're durable, elegant, and easy to maintain. 10/10 would recommend!",
-      image: customer3, // Replace with actual image URL
-    },
-  ];
 
+function Testimonials() {
   return (
-    <section className="testimonials" id="testimonials">
-      <h2>What Our Customers Are Saying</h2>
-      <div className="testimonials-container">
-        {testimonials.map((testimonial) => (
-          <div className="testimonial" key={testimonial.id}>
-            <div className="testimonial-card">
-              <div className="testimonial-image-container">
+    <>
+      <div className="testimonials_main">
+        <div className="testimonials_text">
+          <h2>“Our clients often tell us.....</h2>
+        </div>
+        <div className="customer_review_main">
+          <div className="customer_review">
+            <div className="customer_details">
+              <div className="customer_img">
                 <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="testimonial-image"
+                  src={customer1}
+                  alt=""
+                  className="img_customer"
+
                 />
+                <span className="cutomer_name" >Bessie Cooper</span>
+
               </div>
-              <div className="testimonial-content">
-                <h4>{testimonial.name}</h4>
-                <p>{testimonial.message}</p>
-              </div>
+              <hr  className="hr_heading"/>
+
+
+
+            </div>
+            <div className="customer_say">
+              <p>best experience and best quality of tiles. I have brought tiles and marble for my complete home. </p>
             </div>
           </div>
-        ))}
-      </div>
-    </section>
+
+          <div className="customer_review">
+            <div className="customer_details">
+              <div className="customer_img">
+                <img
+                  src={customer2}
+                  alt=""
+                  className="img_customer"
+
+                />
+                <span className="cutomer_name">Arlene McCoy</span>
+
+              </div>
+              <hr className="hr_heading" />
+
+            </div>
+            <div className="customer_say">
+              <p>best experience and best quality of tiles. I have brought tiles and marble for my complete home. </p>
+            </div>
+          </div>
+
+          <div className="customer_review">
+            <div className="customer_details">
+              <div className="customer_img">
+                <img
+                  src={customer3}
+                  alt=""
+                  className="img_customer"
+
+                />
+                <span className="cutomer_name">Bessie Cooper</span>
+              </div>
+              <hr className="hr_heading" />
+              </div>
+              <div className="customer_say">
+                <p>best experience and best quality of tiles. I have brought tiles and marble for my complete home. </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      
+    </>
   )
 }
 
-export default Testimonials;
+export default Testimonials
+

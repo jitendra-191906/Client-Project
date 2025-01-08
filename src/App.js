@@ -8,6 +8,7 @@ import Feature from './Component/Feature';
 import Testimonials from './Component/Testimonials';
 import Categories from './Component/Categories';
 import SlideShow from './Component/SlideShow';
+import Googlemap from './Component/Googlemap';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
       <About />
       {/* <Product /> */}
       <Feature/>
-      {/* <Testimonials/> */}
+      <Testimonials/>
       {/* <Contact /> */}
+      <Googlemap/>
       <Footer />
     </>
   );
