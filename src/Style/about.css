@@ -4,17 +4,21 @@
   justify-content: space-evenly;
   letter-spacing: 2px;
   text-align: center;
+  font-size: 1.2rem;
+
 
 }
 .aboutus_contianer_1{
   width: 23vw;
+  height: auto;
   
 }
 #aboutus_align{
 text-align:justify;
 }
 .aboutus_contianer_2{
-  width: 23vw;
+  width: 42vw;
+  height: auto;
 }
 .aboutus_text{
   display: flex;
