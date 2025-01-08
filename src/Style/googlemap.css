@@ -1,0 +1,9 @@
+.map-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+}
+.map-container h3{
+      color: black;
+      letter-spacing: 2px;
+}
