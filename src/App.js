@@ -9,7 +9,7 @@ import Testimonials from './Component/Testimonials';
 import Categories from './Component/Categories';
 import SlideShow from './Component/SlideShow';
 import Googlemap from './Component/Googlemap';
-
+import Letconnect from './Component/Letconnect';
 function App() {
   return (
     <>
@@ -20,6 +20,7 @@ function App() {
       {/* <Product /> */}
       <Feature/>
       <Testimonials/>
+     <Letconnect />
       {/* <Contact /> */}
       <Googlemap/>
       <Footer />

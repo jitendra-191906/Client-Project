@@ -1,0 +1,82 @@
+.let_connect_main {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: black;
+      max-width: 100%;
+      margin-top: 7px;
+}
+
+.connect_inner {
+      color: white;
+}
+
+.connect_form {
+      display: flex;
+      flex-direction: row;
+}
+
+.input_button {
+      height: 5vh;
+      width: 23vw;
+      border-radius: 12px;
+      padding: 5px 20px 5px 25px;
+      font-size: 1.3rem;
+      border: none;
+}
+
+.connect_button {
+      height: 6.3vh;
+      width: 8vw;
+      border-radius: 13px;
+      border: none;
+      font-size: 1.3rem;
+      padding: 5px 20px 5px 20px;
+      margin-left: -20px;
+      background-color: rgb(163, 161, 161);
+}
+
+.letconnect_section {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: baseline;
+      gap: 5rem;
+      max-width: 100%;
+      width: 100%;
+      color: white;
+      background-color: rgb(63, 63, 63);
+      margin-top: 20px;
+      padding: 20px 0px 20px 0px;
+}
+
+
+.letconnect_items {
+      display: flex;
+      flex-direction: row;
+      font-size: 1rem;
+      justify-content: space-around;
+      align-items: center;
+      gap: 12px;
+}
+
+.letconnect_items:hover {
+      color: #007bff;
+      cursor: pointer;
+}
+
+.letconnect_img {
+      width: 30px;
+      height: 30px;
+}
+
+.letconnect_img img {
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+}
+
+.letconnect_text {
+      max-width: 90%;
+      text-align: left;
+      word-wrap: break-word;
+}
