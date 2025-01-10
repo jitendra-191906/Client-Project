@@ -10,19 +10,21 @@ import Categories from './Component/Categories';
 import SlideShow from './Component/SlideShow';
 import Googlemap from './Component/Googlemap';
 import Letconnect from './Component/Letconnect';
+import Marble from './Component/Marble';
 function App() {
   return (
     <>
       <Header />
-      <SlideShow/>
-      <Categories/>
-      <About />
+      {/* <SlideShow/> */}
+      {/* <Categories/> */}
+      <Marble/>
+      {/* <About /> */}
       {/* <Product /> */}
-      <Feature/>
-      <Testimonials/>
-     <Letconnect />
+      {/* <Feature/> */}
+      {/* <Testimonials/> */}
+     {/* <Letconnect /> */}
       {/* <Contact /> */}
-      <Googlemap/>
+      {/* <Googlemap/> */}
       <Footer />
     </>
   );

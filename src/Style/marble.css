@@ -1,0 +1,76 @@
+.marble_main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 15px;
+      padding-bottom: 5px;
+}
+.marble_details_section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+}
+.marble_image_section {
+      height: 50vh;
+}
+
+.marble_details_section {
+      width: 100%;
+}
+
+.marble_details {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.marble_type_section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+
+}
+
+.marble_type_div {
+      width: 15%;
+      height: 15%;
+      border: 2px black;
+      border-style: solid;
+      border-radius: 10px;
+}
+
+.marble_type_img {
+      padding: 5px;
+}
+
+.marble_image {
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+}
+
+.marble_type_image {
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+}
+
+.explore_button {
+      width: 16%;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: black;
+      color: white;
+
+}
+
+.marble_explore_section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.2rem;
+}
