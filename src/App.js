@@ -11,6 +11,7 @@ import SlideShow from './Component/SlideShow';
 import Googlemap from './Component/Googlemap';
 import Letconnect from './Component/Letconnect';
 import Marble from './Component/Marble';
+import Tiles from './Component/Tiles';
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <SlideShow/>
       <Categories/>
       <Marble/>
+      <Tiles/>
       <About />
       {/* <Product /> */}
       <Feature/>
