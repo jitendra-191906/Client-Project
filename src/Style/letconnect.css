@@ -5,10 +5,12 @@
       background-color: black;
       max-width: 100%;
       margin-top: 7px;
+      letter-spacing: 1px;
 }
 
 .connect_inner {
       color: white;
+      font-size: 1.5rem;
 }
 
 .connect_form {
@@ -21,7 +23,7 @@
       width: 23vw;
       border-radius: 12px;
       padding: 5px 20px 5px 25px;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       border: none;
 }
 

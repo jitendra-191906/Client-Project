@@ -15,16 +15,16 @@ function App() {
   return (
     <>
       <Header />
-      {/* <SlideShow/> */}
-      {/* <Categories/> */}
+      <SlideShow/>
+      <Categories/>
       <Marble/>
-      {/* <About /> */}
+      <About />
       {/* <Product /> */}
-      {/* <Feature/> */}
-      {/* <Testimonials/> */}
-     {/* <Letconnect /> */}
+      <Feature/>
+      <Testimonials/>
+     <Letconnect />
       {/* <Contact /> */}
-      {/* <Googlemap/> */}
+      <Googlemap/>
       <Footer />
     </>
   );

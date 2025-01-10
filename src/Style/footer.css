@@ -7,7 +7,7 @@
   text-align: center;
   padding: 25px 10px;
   gap: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .footer_logo_img img {
@@ -44,7 +44,7 @@
 }
 
 .footer-company-text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .footer_about_section {
