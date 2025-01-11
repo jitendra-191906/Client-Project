@@ -127,8 +127,8 @@
 }
 
 .social-media-icon-sec {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }
 
 .social-media-icon-sec:hover {
@@ -225,21 +225,21 @@
   }
 
   .footer-company-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    padding: 0px;
   }
 
   .footer-logo-section {
     width: 50%;
-    font-size: 1.1rem;
   }
 
   .footer_about_section {
     width: 33%;
-    font-size: 1rem;
+    font-size: 1.17rem;
   }
 
   .footer_contact_section {
-    font-size: 1rem;
+    font-size: 1.17rem;
   }
 
   .footer-bottom-sec {
@@ -261,10 +261,6 @@
 @media (max-width: 450px) {
   .footer-logo-section {
     width: -webkit-fill-available;
-  }
-
-  .footer-company-text {
-    padding: 0px 10%;
   }
 
   .footer_about_section {
@@ -301,7 +297,7 @@
   }
 
   .social-media-icon-sec {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
   }
 }

@@ -4,7 +4,44 @@
       text-align: center;
       width: 100%;
 }
-.map-container h3{
+
+.map-container h3 {
       color: #929090;
       letter-spacing: 1px;
+}
+
+.map-container iframe {
+      border-radius: 0px;
+      border: none;
+      width: 100%;
+      height: 400px;
+}
+
+@media (max-width: 900px) {
+
+      .map-container iframe {
+            height: 350px;
+      }
+}
+
+@media (max-width: 700px) {
+
+      .map-container iframe {
+            height: 310px;
+      }
+}
+
+
+@media (max-width: 520px) {
+
+      .map-container iframe {
+            height: 270px;
+      }
+}
+
+@media (max-width: 370px) {
+
+      .map-container iframe {
+            height: 215px;
+      }
 }

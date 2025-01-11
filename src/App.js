@@ -26,7 +26,7 @@ function App() {
       {/* <Testimonials/> */}
      {/* <Letconnect /> */}
       {/* <Contact /> */}
-      {/* <Googlemap/> */}
+      <Googlemap/>
       <Footer />
     </>
   );

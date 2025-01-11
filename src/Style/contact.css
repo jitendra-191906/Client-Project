@@ -62,23 +62,7 @@
   color: #333;
 }
 
-/* Google Map Section */
-.map-container {
-  margin-top: 40px;
-}
 
-.map-container h3 {
-  font-size: 1.8em;
-  color: #c69d16;
-  margin-bottom: 20px;
-}
-
-.map-container iframe {
-  border-radius: 8px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Ensure full width for responsiveness */
-  height: 400px; /* Default height */
-}
 
 /* Floating Action Button (FAB) */
 .contact-fab {
