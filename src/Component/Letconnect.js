@@ -7,14 +7,16 @@ import '../Style/letconnect.css'
 function Letconnect() {
       return (
             <>
-                  <div className="let_connect_main">
-                        <div className="connect_inner">
-                              <h2>Lets  connect!</h2>
+                  <div className="let_connect_section">
+                        <div className='let-connect-top'>
+
+                        <div className="let-connect-top-title">
+                              <p>Lets  connect!</p>
                         </div>
-                        <div className="connect_inner">
-                              <h3>connect us and get best offers and learnmore.</h3>
+                        <div className="let-connect-top-description">
+                              <p>connect us and get best offers and deals.</p>
                         </div>
-                        <div className="connect_inner">
+                        {/* <div className="connect_inner">
                               <div className="connect_form">
                                     <div className="connect_input">
                                           <input
@@ -29,10 +31,12 @@ function Letconnect() {
                                     </div>
 
                               </div>
+                        </div> */}
                         </div>
-                        <div className="letconnect_section">
 
-                              <div className="letconnect_items">
+                        <div className="let-connect-bottom">
+
+                              <div className="let_connect_bottom_items">
                                     <div className="letconnect_img">
                                           <img
                                                 src={ContactImg}
@@ -44,7 +48,7 @@ function Letconnect() {
                                     </p>
                               </div>
 
-                              <div className="letconnect_items">
+                              <div className="let_connect_bottom_items">
                                     <div className="letconnect_img">
                                           <img
                                                 src={LocationImg}
@@ -58,7 +62,7 @@ function Letconnect() {
                                     </p>
                               </div>
 
-                              <div className="letconnect_items">
+                              <div className="let_connect_bottom_items">
                                     <div className="letconnect_img">
                                           <img
                                                 src={EmailImg}
