@@ -22,8 +22,8 @@ function App() {
       {/* <About /> */}
       {/* <Product /> */}
       {/* <Feature/> */}
-      {/* <Testimonials/> */}
       <Letconnect />
+      <Testimonials/>
       <Googlemap />
       <Footer />
     </>

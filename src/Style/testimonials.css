@@ -2,44 +2,83 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       letter-spacing: 1px;
       font-size: 1.2rem;
 
 }
 
-.customer_review_main {
-      display: flex;
-      flex-direction: row;
-       gap: 15rem;
- } 
-
- .customer_review {
+.testimonial_inner{
+      padding: 10px;
       display: flex;
       flex-direction: column;
+      align-items: center;
+      width: -webkit-fill-available;
+
+}
+
+.testimonial_bottom{
+      gap: 17px;
+      overflow: auto;
+      width: -webkit-fill-available;
+      display: flex;
+      flex-direction: row;
+      padding: 10px 20px;
       justify-content: space-around;
-      text-align:justify;
+}
 
-      width: 15vw;
-      height: auto; 
+.customer_review {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 287px;
+      height: 244px;
+      border-radius: 8px;
+      /* border: 1px  solid #07070017; */
+      box-shadow: -15px 7px 12px 2px #716e6e42;
+
+}
+
+.customer_review_inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
       padding: 15px;
-      border-radius: 1.2rem;
-      border: 1px  solid rgb(7, 7, 0);
-      box-shadow: 1.2px 2px rgb(113, 110, 110);
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+}
 
+.customer_details{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      width: -webkit-fill-available;
+      align-items: center;
 }
- 
- hr{
+
+.customer_review_text{
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+      margin-top: 16px;
+      color: gray;
+      padding: 0px 7px;
+      font-weight: 500;
+}
+
+hr {
       border: none;
-      height: 3px; 
+      height: 3px;
       background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
-      width: 100%; 
+      width: 100%;
 }
-.cutomer_name{
+
+.cutomer_name {
       padding-left: 20px;
 }
 
- .img_customer{
+.img_customer {
       width: 20%;
       border-radius: 30px;
 
-}    
+}
