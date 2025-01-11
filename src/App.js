@@ -15,18 +15,18 @@ import Tiles from './Component/Tiles';
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       {/* <SlideShow/> */}
-      <Categories/>
-      <Marble/>
-      <Tiles/>
-      <About />
+      {/* <Categories/> */}
+      {/* <Marble/> */}
+      {/* <Tiles/> */}
+      {/* <About /> */}
       {/* <Product /> */}
-      <Feature/>
-      <Testimonials/>
-     <Letconnect />
+      {/* <Feature/> */}
+      {/* <Testimonials/> */}
+     {/* <Letconnect /> */}
       {/* <Contact /> */}
-      <Googlemap/>
+      {/* <Googlemap/> */}
       <Footer />
     </>
   );
