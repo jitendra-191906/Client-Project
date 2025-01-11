@@ -16,18 +16,22 @@ const SlideShow = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    // className: "center",
+    // centerMode: true,
+    adaptiveHeight: true,
+    variableWidth: true,
   };
 
   return (
     <div className="slideshow-container">
       <Slider {...settings}>
-        <div>
+        <div style={{ width: "auto" }}>
           <img src={img1} alt="Slide 1" />
         </div>
-        <div>
+        <div style={{ width: "auto" }}>
           <img src={img2} alt="Slide 2" />
         </div>
-        <div>
+        <div style={{ width: "auto" }}>
           <img src={img3} alt="Slide 3" />
         </div>
       </Slider>

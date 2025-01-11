@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Header />
-      <SlideShow/>
+      {/* <SlideShow/> */}
       <Categories/>
       <Marble/>
       <Tiles/>
