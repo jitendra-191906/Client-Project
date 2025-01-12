@@ -11,10 +11,11 @@ import Googlemap from './Component/Googlemap';
 import Letconnect from './Component/Letconnect';
 import Marble from './Component/Marble';
 import Tiles from './Component/Tiles';
+import Granite from './Component/Granite'
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       {/* <SlideShow/> */}
       {/* <Categories/> */}
       {/* <Marble/> */}
@@ -22,11 +23,12 @@ function App() {
       {/* <About /> */}
       {/* <Product /> */}
       {/* <Feature/> */}
-      <Letconnect />
-      <Testimonials/>
-      <Googlemap />
+      <Granite/>
+      {/* <Letconnect /> */}
+      {/* <Testimonials/> */}
+      {/* <Googlemap /> */}
       <Footer />
-    </>
+      </>
   );
 }
 

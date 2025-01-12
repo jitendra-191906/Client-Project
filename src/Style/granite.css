@@ -1,0 +1,95 @@
+.granite_main_container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      /* align-items: center; */
+}
+.grantie_text{
+      text-align: center;
+}
+
+.granite_deatils_main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+
+
+.granite_main_img {
+      width: 40vw;
+      height: 48vh;
+}
+
+.granite_quality_main {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+
+}
+.granite_quality_1 , .granite_quality_2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 23vw;
+      height: 15vh;
+      gap: 40px;
+      padding: 20px;
+}
+ .granite_feature_1 , .granite_feature_2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 23vw;
+      height: 15vh;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: -15px 7px 12px 2px #716e6e42;
+
+} 
+.granite_type_main{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 20px;
+}
+.granite_type_deatils{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+}
+.granite_type_img{
+      width: 15vw;
+      /* height: 20vh; */
+
+}
+
+.granite_explore_button {
+      width: 16%;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: black;
+      color: white;
+
+}
+
+.granite_explore_more {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.2rem;
+}
+
+
+.granite_feature_icon {
+      width: 6vw;
+}
+
+.granite_image, .granite_feature_img,.granite_type_image {
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+}
