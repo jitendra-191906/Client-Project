@@ -5,7 +5,25 @@ import 'slick-carousel/slick/slick-theme.css';
 import '../Style/slideshow.css';
 import img1 from '../Images/GraniteFlooring.jpeg';
 import img2 from '../Images/TileFlooring.jpg';
-import img3 from '../Images/image3.jpg';
+import img3 from '../Images/image3show.jpg';
+
+const slides = [
+  {
+    image: img1,
+    title: "Elegant Granite Flooring",
+    description: "Bring timeless beauty to your home with granite floors.",
+  },
+  {
+    image: img2,
+    title: "Modern Tile Designs",
+    description: "Upgrade your spaces with tiles crafted for durability and style.",
+  },
+  {
+    image: img3,
+    title: "Custom Flooring Solutions",
+    description: "Tailored solutions for your dream interiors.",
+  },
+];
 
 const SlideShow = () => {
   const settings = {
@@ -15,25 +33,28 @@ const SlideShow = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
-    // className: "center",
-    // centerMode: true,
-    adaptiveHeight: true,
-    variableWidth: true,
+    autoplaySpeed: 4000,
+    arrows: false, // No navigation arrows for simplicity
   };
 
   return (
-    <div className="slideshow-container">
+    <div className="testimonials_slideshow">
       <Slider {...settings}>
-        <div style={{ width: "auto" }}>
-          <img src={img1} alt="Slide 1" />
-        </div>
-        <div style={{ width: "auto" }}>
-          <img src={img2} alt="Slide 2" />
-        </div>
-        <div style={{ width: "auto" }}>
-          <img src={img3} alt="Slide 3" />
-        </div>
+        {slides.map((slide, index) => (
+          <div key={index} className="testimonial_slide">
+            <div
+              className="testimonial_slide_bg"
+              style={{
+                backgroundImage: `url(${slide.image})`,
+              }}
+            >
+              <div className="testimonial_text_overlay">
+                <h2 className="testimonial_slide_title">{slide.title}</h2>
+                <p className="testimonial_slide_description">{slide.description}</p>
+              </div>
+            </div>
+          </div>
+        ))}
       </Slider>
     </div>
   );

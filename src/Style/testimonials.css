@@ -27,6 +27,8 @@
     
     .testimonial_slider {
       width: 100%;
+      padding: 20px;
+
 
     }
     
@@ -58,6 +60,7 @@
       flex-direction: row;
       align-items: center;
       margin-bottom: 10px;
+      
     }
     
     .img_customer {
