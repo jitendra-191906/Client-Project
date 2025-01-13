@@ -24,10 +24,10 @@ function App() {
       {/* <Product /> */}
       {/* <Feature/> */}
       {/* <Granite/> */}
-      {/* <Letconnect /> */}
-      {/* <Testimonials/> */}
-      {/* <Googlemap /> */}
-      {/* <Footer /> */}
+      <Letconnect />
+      <Testimonials/>
+      <Googlemap />
+      <Footer />
       </>
   );
 }

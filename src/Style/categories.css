@@ -45,19 +45,16 @@
 }
 
 @media (max-width: 1200px) {
- 
-  .categories-section-bottom {
-    width: 95%;
-  }
+  
    
   .category-card-image-container {
-    width: 90%;
+    width: 200px;
   }
 }
     
     @media (max-width: 1000px) { 
       .category-card-image-container {
-        width: 80%;
+        width: 100px;
       }
       
     }
@@ -71,10 +68,10 @@
     
       
       .category-card-image-container {
-        width: 75%;
+        width: 100px;
       }
       .categories-section-top{
-        width:100%;
+        width:400px;
         text-align: center;
         padding-left: 50px;
       }
@@ -85,13 +82,7 @@
       
     }
     
-    @media (max-width: 800px) {
-     
-      .categories-section-top{
-        margin-left: 120px;
-      }
-    
-    }
+   
      
     
     
@@ -99,36 +90,34 @@
     @media (max-width: 650px) {
      
       .categories-section-top {
-        font-size: 1.9rem;
-        margin-left: 300px;
+        font-size: 1.5rem;
 
       }
     
       
       .category-card-image-container {
-        width: 73%;
+        width: 100px;
       }
     
       .category-card-name {
-        font-size: 1.3rem;
+        font-size: 1rem;
       }
 
     }
     
     @media (max-width: 550px) {
       .categories-section-top {
-        font-size: 1.8rem;
-        margin-left: 400px;
+        font-size: 1.2rem;
 
       }
     
       
       .category-card-image-container {
-        width: 70%;
+        width: 60px;
       }
     
       .category-card-name {
-        font-size: 1.4rem;
+        font-size: 1rem;
       }
 
      
@@ -136,28 +125,31 @@
     
     @media (max-width: 500px) {
       .categories-section-top {
-        font-size: 1.7rem;
-        margin-left: 450px;
+        font-size: 1.3rem;
 
       }
     
       
       .category-card-image-container {
-        width: 65%;
+        width: 50px;
       }
-    
+      .category-card-name {
+        font-size: .8rem;
+      }
  
     }
     
     
     @media (max-width: 450px) {
       .categories-section-top {
-        font-size: 1.7rem;
-        margin-left: 500px;
+        font-size: 1rem;
 
       }
       .category-card-image-container {
-        width: 60%;
+        width: 40px;
+      }
+      .category-card-name {
+        font-size: .6rem;
       }
    
     }
@@ -165,12 +157,17 @@
     
 
       .categories-section-top {
-        font-size: 1.7rem;
-        margin-left: 550px;
+        font-size: 1rem;
 
       }
       .category-card-image-container {
-        width: 55%;
+        width: 50px;
       }
+      .category-card-name {
+        font-size: .6rem;
+      }
+     .categories-section-bottom{
+      padding-left: 40px;
+     }
       
     }
