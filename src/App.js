@@ -17,17 +17,17 @@ function App() {
     <>
       {/* <Header /> */}
       {/* <SlideShow/> */}
-      {/* <Categories/> */}
+      <Categories/>
       {/* <Marble/> */}
       {/* <Tiles/> */}
-      {/* <Product /> */}
-      {/* <Granite/> */}
       {/* <About /> */}
-      <Feature/>
-      <Letconnect />
-      <Testimonials/>
-      <Googlemap />
-      <Footer />
+      {/* <Product /> */}
+      {/* <Feature/> */}
+      {/* <Granite/> */}
+      {/* <Letconnect /> */}
+      {/* <Testimonials/> */}
+      {/* <Googlemap /> */}
+      {/* <Footer /> */}
       </>
   );
 }

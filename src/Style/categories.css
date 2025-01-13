@@ -40,6 +40,137 @@
 }
 
 .category-card-name {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color:gray;
 }
+
+@media (max-width: 1200px) {
+ 
+  .categories-section-bottom {
+    width: 95%;
+  }
+   
+  .category-card-image-container {
+    width: 90%;
+  }
+}
+    
+    @media (max-width: 1000px) { 
+      .category-card-image-container {
+        width: 80%;
+      }
+      
+    }
+    
+    @media (max-width: 900px) {
+ 
+      
+      .categories-section-top {
+        font-size: 2rem;
+      }
+    
+      
+      .category-card-image-container {
+        width: 75%;
+      }
+      .categories-section-top{
+        width:100%;
+        text-align: center;
+        padding-left: 50px;
+      }
+      .category-card-name {
+        font-size: 1.5rem;
+      }
+      
+      
+    }
+    
+    @media (max-width: 800px) {
+     
+      .categories-section-top{
+        margin-left: 120px;
+      }
+    
+    }
+     
+    
+    
+    
+    @media (max-width: 650px) {
+     
+      .categories-section-top {
+        font-size: 1.9rem;
+        margin-left: 300px;
+
+      }
+    
+      
+      .category-card-image-container {
+        width: 73%;
+      }
+    
+      .category-card-name {
+        font-size: 1.3rem;
+      }
+
+    }
+    
+    @media (max-width: 550px) {
+      .categories-section-top {
+        font-size: 1.8rem;
+        margin-left: 400px;
+
+      }
+    
+      
+      .category-card-image-container {
+        width: 70%;
+      }
+    
+      .category-card-name {
+        font-size: 1.4rem;
+      }
+
+     
+    }
+    
+    @media (max-width: 500px) {
+      .categories-section-top {
+        font-size: 1.7rem;
+        margin-left: 450px;
+
+      }
+    
+      
+      .category-card-image-container {
+        width: 65%;
+      }
+    
+ 
+    }
+    
+    
+    @media (max-width: 450px) {
+      .categories-section-top {
+        font-size: 1.7rem;
+        margin-left: 500px;
+
+      }
+      .category-card-image-container {
+        width: 60%;
+      }
+   
+    }
+    @media (max-width: 350px) {
+    
+
+      .categories-section-top {
+        font-size: 1.7rem;
+        margin-left: 550px;
+
+      }
+      .category-card-image-container {
+        width: 55%;
+      }
+      
+    }
