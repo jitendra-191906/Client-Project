@@ -15,15 +15,15 @@ import Granite from './Component/Granite'
 function App() {
   return (
     <>
-      <Header />
-      <SlideShow/>
-      <Categories/>
-      <Marble/>
-      <Tiles/>
-      <About />
+      {/* <Header /> */}
+      {/* <SlideShow/> */}
+      {/* <Categories/> */}
+      {/* <Marble/> */}
+      {/* <Tiles/> */}
       {/* <Product /> */}
+      {/* <Granite/> */}
+      {/* <About /> */}
       <Feature/>
-      <Granite/>
       <Letconnect />
       <Testimonials/>
       <Googlemap />
