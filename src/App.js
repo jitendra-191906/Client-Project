@@ -20,7 +20,7 @@ function App() {
       <Categories/>
       {/* <Marble/> */}
       {/* <Tiles/> */}
-      {/* <About /> */}
+      <About />
       {/* <Product /> */}
       {/* <Feature/> */}
       {/* <Granite/> */}
