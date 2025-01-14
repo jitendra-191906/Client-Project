@@ -9,6 +9,17 @@ import Youtube from '../Images/youtube.png';
 import Whatsapp from '../Images/whatsapp.png';
 import Linkedin from '../Images/linkedin.png';
 
+import {
+  LETS_CONNECT,
+  GOOGLE_MAP,
+  WHY_TO_CHOOSE,
+  TESTIMONIALS,
+  ABOUT_US,
+  HEADER,
+  CATEGORIES
+} from "../constants";
+import { scrollToComponent } from "./helper";
+
 
 const Footer = () => {
   return (
@@ -36,11 +47,56 @@ const Footer = () => {
           </div>
 
           <div className="footer_about_section">
-            <div className="about_item"> Home</div>
-            <div className="about_item"> Products</div>
-            <div className="about_item"> About Us</div>
-            <div className="about_item"> Contact Us</div>
-            <div className="about_item"> Sitemap</div>
+
+            <div
+              className="about_item"
+              onClick={() => scrollToComponent(HEADER)}
+            >
+              Home
+            </div>
+
+            <div
+              className="about_item"
+              onClick={() => scrollToComponent(CATEGORIES)}
+            >
+              Categories
+            </div>
+
+            <div
+              className="about_item"
+              onClick={() => scrollToComponent(ABOUT_US)}
+            >
+              About
+            </div>
+
+            <div
+              className="about_item"
+              onClick={() => scrollToComponent(WHY_TO_CHOOSE)}
+            >
+              Why to Choose
+            </div>
+
+            <div
+              className="about_item"
+              onClick={() => scrollToComponent(LETS_CONNECT)}
+            >
+              Contact Us
+            </div>
+
+            <div
+              className="about_item"
+              onClick={() => scrollToComponent(TESTIMONIALS)}
+            >
+              Testimonials
+            </div>
+
+            <div
+              className="about_item"
+              onClick={() => scrollToComponent(GOOGLE_MAP)}
+            >
+              Sitemap
+            </div>
+
           </div>
 
           <div className="footer_contact_section">

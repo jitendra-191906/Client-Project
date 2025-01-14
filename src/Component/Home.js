@@ -18,10 +18,10 @@ const Home = () => {
             <Categories />
             {/* <Marble/> */}
             {/* <Tiles/> */}
-            {/* <About /> */}
             {/* <Product /> */}
-            {/* <Feature/> */}
             {/* <Granite/> */}
+            <About />
+            <Feature/>
             <Letconnect />
             <Testimonials />
         </>

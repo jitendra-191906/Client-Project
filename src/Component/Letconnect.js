@@ -3,20 +3,23 @@ import ContactImg from '../Images/contactimg.png'
 import LocationImg from '../Images/locationimg.png'
 import EmailImg from '../Images/emailimg.png'
 import '../Style/letconnect.css'
+import { LETS_CONNECT } from '../constants'
 
 function Letconnect() {
       return (
             <>
-                  <div className="let_connect_section">
+                  <div
+                        id={LETS_CONNECT}
+                        className="let_connect_section">
                         <div className='let-connect-top'>
 
-                        <div className="let-connect-top-title">
-                              <p>Lets  connect!</p>
-                        </div>
-                        <div className="let-connect-top-description">
-                              <p>connect us and get best offers and deals.</p>
-                        </div>
-                        {/* <div className="connect_inner">
+                              <div className="let-connect-top-title">
+                                    <p>Lets  connect!</p>
+                              </div>
+                              <div className="let-connect-top-description">
+                                    <p>connect us and get best offers and deals.</p>
+                              </div>
+                              {/* <div className="connect_inner">
                               <div className="connect_form">
                                     <div className="connect_input">
                                           <input

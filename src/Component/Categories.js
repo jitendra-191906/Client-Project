@@ -6,6 +6,7 @@ import graniteImage from '../Images/Granite.png';
 import bathroomTilesImage from '../Images/bathroomtile.png';
 import kitchenTilesImage from '../Images/kitchentile.png';
 import floorTilesImage from '../Images/Floortile.png';
+import { CATEGORIES } from '../constants';
 
 const Categories = () => {
   const categories = [
@@ -17,7 +18,10 @@ const Categories = () => {
   ];
 
   return (
-    <section className="categories-section">
+    <section
+      id={CATEGORIES}
+      className="categories-section"
+    >
       <div className='categories-inner'>
 
         <h2 className='website_heading_text'>

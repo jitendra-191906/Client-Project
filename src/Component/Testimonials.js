@@ -6,7 +6,8 @@ import customer3 from '../Images/cust3.jpg';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { FaDeaf } from "react-icons/fa";
+import { TESTIMONIALS } from "../constants";
+
 
 const customerReviewsList = [
   {
@@ -46,7 +47,7 @@ function Testimonials() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     responsive: [
       {
@@ -67,14 +68,17 @@ function Testimonials() {
         breakpoint: 450, // Mobile
         settings: {
           slidesToShow: 1,
-          fade:true
+          fade: true,
+          speed: 100,
         },
       },
     ],
   };
 
   return (
-    <div className="testimonials_main">
+    <div 
+    id={TESTIMONIALS}
+    className="testimonials_main">
       <div className="testimonial_inner">
         <h2 className="website_heading_text">
           “Our clients often tell us.....”

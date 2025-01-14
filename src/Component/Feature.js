@@ -5,6 +5,7 @@ import img2 from '../Images/Quality.png'
 import img3 from '../Images/Multiple.png'
 import img4 from '../Images/expert.png'
 
+import { WHY_TO_CHOOSE } from '../constants'
 
 const featureList = [
 
@@ -34,7 +35,9 @@ const featureList = [
 function Feature() {
   return (
     <>
-      <div className="whychoose_us">
+      <div
+        id={WHY_TO_CHOOSE}
+        className="whychoose_us">
         <div className='whychoose_us_inner'>
           <div className="whychoose_top website_heading_text">
             <h2>Why to choose us?</h2>

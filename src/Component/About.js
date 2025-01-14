@@ -1,9 +1,14 @@
 import React from 'react';
 import '../Style/about.css';
 import aboutImage from '../Images/about-image.jpg';
+import { ABOUT_US } from '../constants';
+
 const About = () => {
   return (
-    <section className="main_aboutus_container">
+    <section
+      id={ABOUT_US}
+      className="main_aboutus_container"
+    >
       <div className="aboutus_contianer_1">
         <div className="aboutus_tittle">
           <h1>About Us</h1>

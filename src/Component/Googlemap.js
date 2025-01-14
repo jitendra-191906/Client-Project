@@ -1,10 +1,13 @@
 import React from 'react'
 import '../Style/googlemap.css';
+import { GOOGLE_MAP } from '../constants';
 
 function Googlemap() {
   return (
     <>
-      <div className="map-container">
+      <div
+        id={GOOGLE_MAP}
+        className="map-container">
         <h2 className='website_heading_text'>
           Find Us on the Map
         </h2>

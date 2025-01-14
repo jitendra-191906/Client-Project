@@ -8,7 +8,7 @@ import Router from './Router';
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Router />
       <Googlemap />
       <Footer />
