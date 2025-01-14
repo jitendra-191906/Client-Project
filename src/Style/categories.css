@@ -3,9 +3,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  max-width: 100%;
-  letter-spacing: 1px;
+  width: -webkit-fill-available;
+}
+
+.categories-inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: -webkit-fill-available;
+  padding: 10px 10px;
 }
 
 .categories-section-top {
@@ -18,7 +25,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: -webkit-fill-available;
+  gap: 10px;
 }
 
 .category-card-layout {
@@ -27,7 +35,7 @@
   justify-content: center;
   align-items: center;
   gap:10px;
-  width: auto;
+  width: 160px;
 }
 
 .category-card-image {
@@ -36,11 +44,11 @@
 }
 
 .category-card-image-container {
-  width: 100%;
+  width: -webkit-fill-available;
 }
 
 .category-card-name {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color:gray;
 }
 

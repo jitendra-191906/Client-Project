@@ -18,40 +18,41 @@ const Categories = () => {
 
   return (
     <section className="categories-section">
+      <div className='categories-inner'>
 
-      <div className="categories-section-top">
-        <h3>Our Categories</h3>
-      </div>
+        <h2 className='website_heading_text'>
+          Our Categories
+        </h2>
 
-      <div className="categories-section-bottom">
-        {
-          categories.map((category, index) => {
-            return (
-              <React.Fragment key={index}>
-                <div
-                  key={index}
-                  className="category-card-layout"
-                >
+        <div className="categories-section-bottom">
+          {
+            categories.map((category, index) => {
+              return (
+                <React.Fragment key={index}>
+                  <div
+                    key={index}
+                    className="category-card-layout"
+                  >
 
-                  <div className="category-card-image-container">
-                    <img
-                      src={category.image}
-                      alt={category.name}
-                      className="category-card-image"
-                    />
+                    <div className="category-card-image-container">
+                      <img
+                        src={category.image}
+                        alt={category.name}
+                        className="category-card-image"
+                      />
+                    </div>
+
+                    <p className="category-card-name">
+                      {category.name}
+                    </p>
+
                   </div>
-
-                  <p className="category-card-name">
-                    {category.name}
-                  </p>
-
-                </div>
-              </React.Fragment>
-            )
-          })
-        }
+                </React.Fragment>
+              )
+            })
+          }
+        </div>
       </div>
-      
     </section>
   );
 };
