@@ -16,10 +16,10 @@ const Home = () => {
         <>
             {/* <SlideShow/> */}
             {/* <Categories /> */}
-            <Marble/>
-            {/* <Tiles/> */}
-            {/* <Product /> */}
+            {/* <Marble/> */}
+            <Tiles/>
             {/* <Granite/> */}
+            {/* <Product /> */}
             {/* <About /> */}
             {/* <Feature/> */}
             {/* <Letconnect /> */}

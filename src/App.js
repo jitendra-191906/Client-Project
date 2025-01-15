@@ -11,7 +11,7 @@ function App() {
       {/* <Header /> */}
       <Router />
       {/* <Googlemap /> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

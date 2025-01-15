@@ -14,16 +14,16 @@
 }
 
 .tiles_details_img {
-      width: 40vw;
-      height: 60vh;
+      width: 500px;
+      height: 500px;
 }
 
 .tiles_details_section {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      width: 35vw;
-      height: 60vh;
+      width: 500px;
+      height: 400px;
       gap: 10px;
 }
 
@@ -40,18 +40,17 @@
       justify-content: space-around;
       align-items: center;
       gap: 20px;
-      width: 20vw;
-      height: 10vh;
+      width: 400px;
+      height: 80px;
       border: 2px black;
       border-style: solid;
       padding: 5px;
       border-radius: 10px;
 
 }
-
 .tiles_details_2_section_1 {
-      width: 10vw;
-      height: 10vh;
+      width: 150px;
+      height: 70px;
 }
 
 .tiles_type_main {
@@ -69,7 +68,7 @@
 }
 
 .tiles_image_section {
-      width: 15vw;
+      width: 200px;
 }
 
 .image_of_tiles, .Tiles_image, .Ceramic_tiles {
@@ -78,7 +77,7 @@
 }
 
 .tile_explore_button {
-      width: 16%;
+      width: 300px;
       padding: 10px;
       border-radius: 8px;
       background-color: black;
@@ -91,4 +90,132 @@
       flex-direction: column;
       align-items: center;
       font-size: 1.2rem;
+}
+
+
+
+@media (max-width:1200px) and (min-width:800px) {
+
+      .tiles_details_img {
+            width: 380px;
+            height: 390px;
+      }
+
+
+      .tiles_details_section {
+
+            width: 406px;
+            height: 370px;
+      }
+
+      .tiles_details_2_section {
+
+            width: 300px;
+            height: 50px;
+
+      }
+
+      .tiles_details_2_section_1 {
+            width: 120px;
+            height: 50px;
+      }
+
+      .tiles_image_section {
+            width: 150px;
+      }
+
+      .tile_explore_button {
+            width: 280px;
+
+      }
+}
+
+@media (max-width:799px) and (min-width:600px) {
+
+      .tiles_details_img {
+            width: 485px;
+            height: 485px;
+      }
+
+      .tiles_details_section {
+
+            width: 411px;
+            margin-left: 40px;
+
+      }
+
+
+      .tiles_image_section {
+            width: 150px;
+            padding: 20px;
+      }
+
+
+      .tile_explore_button {
+            width: 200px;
+            margin-left: 348px;
+
+      }
+}
+
+@media (max-width:599px) and (min-width:400px) {
+
+      .tiles_details_img {
+            width: 485px;
+            height: 485px;
+      }
+
+      .tiles_details_section {
+
+            width: 411px;
+            margin-left: 40px;
+
+      }
+
+
+      .tiles_image_section {
+            width: 150px;
+            padding: 20px;
+      }
+
+
+      .tile_explore_button {
+            width: 200px;
+            margin-left: 500px;
+
+      }
+
+
+
+}
+
+@media (max-width:399px) and (min-width:300px) {
+
+      .tiles_details_img {
+            width: 485px;
+            height: 485px;
+      }
+
+      .tiles_details_section {
+
+            width: 411px;
+            margin-left: 40px;
+
+      }
+
+
+      .tiles_image_section {
+            width: 150px;
+            padding: 20px;
+      }
+
+      .Tile_explore_section {
+            width: 630px;
+            margin-left: 150px;
+      }
+
+      .tile_explore_button {
+            width: 200px;
+
+      }
 }
