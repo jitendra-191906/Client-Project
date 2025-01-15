@@ -20,7 +20,7 @@ function Marble() {
                                                 <li>Durable and long lasting</li>
                                                 <li>Heat Resistance suitable for kitchen <br />countertops</li>
                                                 <li>Natural material no harmful chemical</li>
-                                                <li>Resists erosion and footprints, making it a <br />good choice for flooring</li>
+                                                <li>Resists erosion and footprints, making it a good choice for flooring</li>
                                           </ul>
                                     </div>
                               </div>
