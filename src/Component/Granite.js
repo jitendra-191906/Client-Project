@@ -9,12 +9,13 @@ import GraniteTypeImage1 from '../Images/granite_type_1.png';
 import GraniteTypeImage2 from '../Images/granite_type_2.png';
 import GraniteTypeImage3 from '../Images/granite_type_3.png';
 import GraniteTypeImage4 from '../Images/granite_type_4.png';
+import { GRANITES } from '../constants';
 
 
 function Granite() {
       return (
             <>
-                  <div className="granite_main_container">
+                  <div id={GRANITES} className="granite_main_container">
                         <div className="grantie_text">
                               <h1>Explore our Granite</h1>
                         </div>

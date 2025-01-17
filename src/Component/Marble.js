@@ -4,11 +4,12 @@ import image1 from '../Images/marble_image.png'
 import image2 from '../Images/white_marble.png'
 import image3 from '../Images/red_marble.png'
 import image4 from '../Images/black_marble.png'
+import { MARBELS } from '../constants'
 
 function Marble() {
       return (
             <>
-                  <div className="marble_main">
+                  <div id={MARBELS} className="marble_main">
                         <div className="marble_details_section">
                               <div className="marble_details">
                                     <div className="marble_1">

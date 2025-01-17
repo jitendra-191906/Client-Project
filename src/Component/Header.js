@@ -2,14 +2,26 @@ import React, { useState } from 'react';
 import '../Style/header.css';
 import img1 from '../Images/Logo.png';
 
-import { ABOUT_US, TESTIMONIALS, LETS_CONNECT, HEADER } from '../constants';
+import { ABOUT_US, TESTIMONIALS, LETS_CONNECT, HEADER, MARBELS, TILES, GRANITES } from '../constants';
 import { scrollToComponent } from './helper';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isProductsOpen, setIsProductsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const toggleProductsDropdown = () => {
+    setIsProductsOpen(!isProductsOpen);
+
+   
+  };
+
+  const closeAllMenus = () => {
+    setIsMenuOpen(false);
+    setIsProductsOpen(false);
   };
 
   return (
@@ -35,25 +47,52 @@ function Header() {
           <div
             onClick={() => {
               scrollToComponent(ABOUT_US);
-              setIsMenuOpen(false);
+              closeAllMenus();
             }}
             className="navbar_items"
           >
             About
           </div>
-          <div
-            onClick={() => {
-              scrollToComponent(TESTIMONIALS);
-              setIsMenuOpen(false);
-            }}
-            className="navbar_items"
-          >
+
+          <div className="navbar_items" onClick={toggleProductsDropdown}>
             Products
+            <div
+              className={`products_dropdown ${isProductsOpen ? 'open' : ''}`}
+            >
+              <div
+                className="dropdown_item"
+                onClick={() => {
+                  scrollToComponent(MARBELS);
+                  closeAllMenus();
+                }}
+              >
+                Marble
+              </div>
+              <div
+                className="dropdown_item"
+                onClick={() => {
+                  scrollToComponent(GRANITES);
+                  closeAllMenus();
+                }}
+              >
+                Granite
+              </div>
+              <div
+                className="dropdown_item"
+                onClick={() => {
+                  scrollToComponent(TILES);
+                  closeAllMenus();
+                }}
+              >
+                Tile
+              </div>
+            </div>
           </div>
+
           <div
             onClick={() => {
               scrollToComponent(TESTIMONIALS);
-              setIsMenuOpen(false);
+              closeAllMenus();
             }}
             className="navbar_items"
           >
@@ -62,7 +101,7 @@ function Header() {
           <div
             onClick={() => {
               scrollToComponent(LETS_CONNECT);
-              setIsMenuOpen(false);
+              closeAllMenus();
             }}
             className="navbar_items"
           >

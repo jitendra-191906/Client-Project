@@ -10,12 +10,13 @@ import image2 from '../Images/Outdoor_Tiles.png'
 import image3 from '../Images/Kitchen_tiles.png'
 import image4 from '../Images/Bathroom_Tiles.png'
 import image5 from '../Images/Floor_tiles.png'
+import { TILES } from '../constants'
 
 
 function Tiles() {
       return (
             <>
-                  <div className="tiles_section_main">
+                  <div id={TILES} className="tiles_section_main">
                         <div className="tiles_details_main">
                               <div className="tiles_details_img">
                                     <img
