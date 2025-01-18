@@ -1,0 +1,73 @@
+/* Slideshow Container */
+.slideshow-container {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: 20px auto;
+      overflow: hidden;
+      border-radius: 200px;
+      border: none;
+    }
+    
+    /* Image Wrapper */
+    .slideshow-image-wrapper {
+      width: -webkit-fill-available;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+    }
+    
+    .slideshow-image {
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;     
+      object-fit: cover;
+    }
+    
+    /* Navigation Buttons */
+    .slideshow-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      z-index: 10;
+      border-radius: 50%;
+      transition: background 0.3s ease;
+    }
+    
+    .slideshow-button:hover {
+      background: rgba(0, 0, 0, 0.8);
+    }
+    
+    .prev-button {
+      left: 10px;
+    }
+    
+    .next-button {
+      right: 10px;
+    }
+    
+    /* Indicators */
+    .slideshow-indicators {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    
+    .indicator {
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      background: #ccc;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    
+    .indicator.active {
+      background: #333;
+    }
+    
