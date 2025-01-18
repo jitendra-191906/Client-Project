@@ -5,56 +5,31 @@
       font-size: 1.2rem;
       letter-spacing: 1px;
       margin-block-end: 20px;
-      /* align-items: center; */
 }
 .grantie_text{
       text-align: center;
 }
 
 .granite_deatils_main {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-}
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
 
-
-.granite_main_img {
-      width: 500px;
-      height: 400px;
 }
 
 .granite_quality_main {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-
-
+      display: grid;
+      margin-left: 30px;
+      width: 600px;
+     grid-template-columns: repeat(2, 1fr);
 }
-.granite_quality_1 , .granite_quality_2{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 23vw;
-      height: 15vh;
-      gap: 40px;
-      padding: 20px;
+.granite_feature_1,.granite_feature_2,.granite_feature_3,.granite_feature_4{
+      display: grid;
+      grid-template: repeat(2,1fr);
 }
- .granite_feature_1 , .granite_feature_2{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      width: 23vw;
-      height: 15vh;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: -15px 7px 12px 2px #716e6e42;
 
-} 
 .granite_type_main{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
       gap: 20px;
 }
 .granite_type_deatils{
@@ -65,7 +40,6 @@
 }
 .granite_type_img{
       width: 15vw;
-      /* height: 20vh; */
 
 }
 
@@ -90,7 +64,13 @@
       width: 6vw;
 }
 
-.granite_image, .granite_feature_img,.granite_type_image {
+.granite_image{
+      width: 500px;
+      height: 400px;
+}
+
+
+.granite_feature_img,.granite_type_image {
       width: -webkit-fill-available;
       height: -webkit-fill-available;
 }

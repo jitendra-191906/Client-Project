@@ -20,10 +20,10 @@ const Home = () => {
             <Tiles/>
             <Granite/>
             {/* <Product /> */}
-            {/* <About /> */}
-            {/* <Feature/> */}
-            {/* <Letconnect /> */}
-            {/* <Testimonials /> */}
+            <About />
+            <Feature/>
+            <Letconnect />
+            <Testimonials />
         </>
     )
 }

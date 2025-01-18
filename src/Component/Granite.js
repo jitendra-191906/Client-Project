@@ -1,4 +1,4 @@
-import {React} from 'react'
+import { React } from 'react'
 import '../Style/granite.css'
 import GraniteImage from '../Images/Granite_im.png';
 import Featureimage1 from '../Images/Feature_img1.png';
@@ -24,7 +24,7 @@ function Granite() {
             navigate("/granite");
       };
 
-     
+
       return (
             <>
                   <div id={GRANITES} className="granite_main_container">
@@ -34,7 +34,7 @@ function Granite() {
                         <div className="granite_deatils_main">
 
                               <div className="granite_quality_main">
-                                    <div className="granite_quality_1">
+                                    <div>
                                           <div className="granite_feature_1">
                                                 <div className="granite_feature_icon">
                                                       <img
@@ -46,9 +46,11 @@ function Granite() {
                                                 <div className="granite_feature_text">
                                                       <p>Heat Resistance</p>
                                                 </div>
-
                                           </div>
-                                          <div className="granite_feature_2">
+
+                                    </div>
+                                    <div className="granite_feature_2">
+                                          <div>
                                                 <div className="granite_feature_icon">
                                                       <img
                                                             src={Featureimage2}
@@ -59,12 +61,13 @@ function Granite() {
                                                 <div className="granite_feature_text">
                                                       <p>Stain Proof</p>
                                                 </div>
-
                                           </div>
 
                                     </div>
-                                    <div className="granite_quality_2">
-                                          <div className="granite_feature_1">
+
+
+                                    <div className="granite_feature_3">
+                                          <div>
                                                 <div className="granite_feature_icon">
                                                       <img
                                                             src={Featureimage3}
@@ -75,9 +78,11 @@ function Granite() {
                                                 <div className="granite_feature_text">
                                                       <p>Hardness</p>
                                                 </div>
-
                                           </div>
-                                          <div className="granite_feature_2">
+
+                                    </div>
+                                    <div className="granite_feature_4">
+                                          <div>
                                                 <div className="granite_feature_icon">
                                                       <img
                                                             src={Featureimage4}
@@ -89,8 +94,9 @@ function Granite() {
                                                       <p>Weather
                                                             Resistance</p>
                                                 </div>
-
                                           </div>
+
+
                                     </div>
                               </div>
                               <div className="granite_main_img">
