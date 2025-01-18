@@ -46,13 +46,10 @@
 .marble_type_div {
       width: 15%;
       height: 15%;
-      border: 2px black;
-      border-style: solid;
-      border-radius: 10px;
+      
 }
 
 .marble_type_img {
-      padding: 5px;
 }
 
 .marble_image {
@@ -66,14 +63,20 @@
 }
 
 .explore_button {
-      width: 16%;
-      padding: 10px;
-      border-radius: 8px;
-      background-color: black;
+      width: 400px;
+      padding:15px;
+      border-radius: 2px;
+      border: none;
+      background-color: #c0a344;
       color: white;
 
 }
+.explore_button:hover{
+      background-color: #124046;
+      border-radius: 10px;
 
+}
+        
 .marble_explore_section {
       display: flex;
       flex-direction: column;

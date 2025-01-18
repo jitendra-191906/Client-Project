@@ -3,6 +3,7 @@ import Header from './Component/Header';
 import Footer from './Component/Footer';
 import Googlemap from './Component/Googlemap';
 import Router from './Router';
+import SlideShow from './Component/SlideShow';
 
 
 function App() {
@@ -10,8 +11,8 @@ function App() {
     <>
       <Header />
       <Router />
-      {/* <Googlemap /> */}
-      {/* <Footer /> */}
+      <Googlemap />
+      <Footer />
     </>
   );
 }

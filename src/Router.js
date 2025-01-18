@@ -5,6 +5,7 @@ import TilesProducts from './Component/Products/TilesProducts';
 import GraniteProducts from './Component/Products/GraniteProducts';
 
 import { Routes, Route } from "react-router";
+import SlideShow from './Component/SlideShow';
 
 const Router = () => {
   return (
