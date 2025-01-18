@@ -5,8 +5,16 @@ import image2 from '../Images/white_marble.png'
 import image3 from '../Images/red_marble.png'
 import image4 from '../Images/black_marble.png'
 import { MARBELS } from '../constants'
+import { useNavigate } from 'react-router-dom'
+
 
 function Marble() {
+      const navigate =useNavigate();
+      const handleClick = ()=>{
+            window.scrollTo(0,0);
+            navigate("/marbel");
+
+      };
       return (
             <>
                   <div id={MARBELS} className="marble_main">
@@ -73,7 +81,7 @@ function Marble() {
                               </div>
                         </div>
                         <div className="marble_explore_section">
-                              <button className='explore_button' >Show More</button>
+                              <button className='explore_button' onClick={handleClick} >Show More</button>
                         </div>
                   </div>
             </>

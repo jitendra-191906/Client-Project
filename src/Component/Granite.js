@@ -1,4 +1,4 @@
-import React from 'react'
+import {React} from 'react'
 import '../Style/granite.css'
 import GraniteImage from '../Images/Granite_im.png';
 import Featureimage1 from '../Images/Feature_img1.png';
@@ -10,9 +10,21 @@ import GraniteTypeImage2 from '../Images/granite_type_2.png';
 import GraniteTypeImage3 from '../Images/granite_type_3.png';
 import GraniteTypeImage4 from '../Images/granite_type_4.png';
 import { GRANITES } from '../constants';
+import { useNavigate } from "react-router-dom";
+
+
 
 
 function Granite() {
+
+      const navigate = useNavigate();
+
+      const handleClick = () => {
+            window.scrollTo(0, 0);
+            navigate("/granite");
+      };
+
+     
       return (
             <>
                   <div id={GRANITES} className="granite_main_container">
@@ -137,7 +149,7 @@ function Granite() {
 
                         </div>
                         <div className="granite_explore_more">
-                              <button className='granite_explore_button'> Show More</button>
+                              <button className='granite_explore_button' onClick={handleClick}> Show More</button>
                         </div>
                   </div>
 

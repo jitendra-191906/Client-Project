@@ -11,9 +11,18 @@ import image3 from '../Images/Kitchen_tiles.png'
 import image4 from '../Images/Bathroom_Tiles.png'
 import image5 from '../Images/Floor_tiles.png'
 import { TILES } from '../constants'
+import { useNavigate } from 'react-router-dom'
 
 
 function Tiles() {
+
+      const navigate = useNavigate();
+
+      const handleClick = () => {
+            window.scrollTo(0, 0);
+            navigate("/tiles");
+      };
+
       return (
             <>
                   <div id={TILES} className="tiles_section_main">
@@ -122,7 +131,7 @@ function Tiles() {
                               </div>
                         </div>
                         <div className="Tile_explore_section">
-                        <button className='tile_explore_button' >Show More</button>
+                        <button className='tile_explore_button' onClick={handleClick} >Show More</button>
 
 
                         </div>
