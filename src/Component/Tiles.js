@@ -26,55 +26,56 @@ function Tiles() {
       return (
             <>
                   <div id={TILES} className="tiles_section_main">
-                        <div className="tiles_details_main">
-                              <div className="tiles_details_img">
-                                    <img
-                                          src={TileImage}
-                                          alt=""
-                                          className='Tiles_image'
-                                    />
-                              </div>
-                              <div className="tiles_details_section">
-                                    <div className="tiles_details_1">
-                                          <h2>Explore our Tiles</h2>
-                                          <p>We provide wide range of tiles stone including <br /> for kitchen, bathroom, wall, indoor, outdoor <br />
-                                           and for other purpose.</p>
+                        <div className='tiles_section_inner'>
+                              <div className="tiles_details_main">
+                                    <div className="tiles_details_img">
+                                          <img
+                                                src={TileImage}
+                                                alt=""
+                                                className='Tiles_image'
+                                          />
                                     </div>
-                                    <div className="tiles_details_2">
-                                          <div className="tiles_details_2_section">
-                                                <div className="tiles_details_2_section_1">
-                                                      <img
-                                                            src={Type1}
-                                                            alt=""
-                                                            className='Ceramic_tiles' />
+                                    <div className="tiles_details_section">
+                                          <div className="tiles_details_1">
+                                                <h2>Explore our Tiles</h2>
+                                                <p>We provide wide range of tiles stone including <br /> for kitchen, bathroom, wall, indoor, outdoor <br />
+                                                      and for other purpose.</p>
+                                          </div>
+                                          <div className="tiles_details_2">
+                                                <div className="tiles_details_2_section">
+                                                      <div className="tiles_details_2_section_1">
+                                                            <img
+                                                                  src={Type1}
+                                                                  alt=""
+                                                                  className='Ceramic_tiles' />
+                                                      </div>
+                                                      <div className="tiles_details_2_section_2">
+                                                            <p>Ceramic tiles</p>
+                                                      </div>
                                                 </div>
-                                                <div className="tiles_details_2_section_2">
-                                                      <p>Ceramic tiles</p>
+                                                <div className="tiles_details_2_section">
+                                                      <div className="tiles_details_2_section_1">
+                                                            <img
+                                                                  src={Type2}
+                                                                  alt=""
+                                                                  className='Ceramic_tiles' />
+                                                      </div>
+                                                      <div className="tiles_details_2_section_2">
+                                                            <p>Glass tiles</p>
+                                                      </div>
+                                                </div>
+                                                <div className="tiles_details_2_section">
+                                                      <div className="tiles_details_2_section_1">
+                                                            <img
+                                                                  src={Type3}
+                                                                  alt=""
+                                                                  className='Ceramic_tiles' />
+                                                      </div>
+                                                      <div className="tiles_details_2_section_2">
+                                                            <p>Cement tiles</p>
+                                                      </div>
                                                 </div>
                                           </div>
-                                          <div className="tiles_details_2_section">
-                                                <div className="tiles_details_2_section_1">
-                                                      <img
-                                                            src={Type2}
-                                                            alt=""
-                                                            className='Ceramic_tiles' />
-                                                </div>
-                                                <div className="tiles_details_2_section_2">
-                                                      <p>Glass tiles</p>
-                                                </div>
-                                          </div>
-                                          <div className="tiles_details_2_section">
-                                                <div className="tiles_details_2_section_1">
-                                                      <img
-                                                            src={Type3}
-                                                            alt=""
-                                                            className='Ceramic_tiles' />
-                                                </div>
-                                                <div className="tiles_details_2_section_2">
-                                                      <p>Cement tiles</p>
-                                                </div>
-                                          </div>
-                                    </div>
 
                               </div>
                         </div>
@@ -134,6 +135,7 @@ function Tiles() {
                         <button className='tile_explore_button' onClick={handleClick} >Show More</button>
 
 
+                              </div>
                         </div>
                   </div>
             </>

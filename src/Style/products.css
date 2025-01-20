@@ -67,13 +67,6 @@
   width: 100%;
 }
 
-.website_heading_text {
-  text-align: center;
-  font-size: 2rem;
-  margin: 20px 0;
-  color: #333;
-}
-
 /* Product Section */
 .products-page-product-section {
   display: grid;

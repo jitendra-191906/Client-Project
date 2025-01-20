@@ -1,10 +1,15 @@
 .tiles_section_main {
       display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.tiles_section_inner{
+      display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       gap: 10px;
-      margin: 2rem 0rem 1rem 0rem;
-      letter-spacing: 1px;
-      font-size: 1.2rem;
 }
 
 .tiles_details_main {

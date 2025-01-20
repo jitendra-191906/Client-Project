@@ -6,15 +6,16 @@ import graniteImage from '../Images/Granite.png';
 import bathroomTilesImage from '../Images/bathroomtile.png';
 import kitchenTilesImage from '../Images/kitchentile.png';
 import floorTilesImage from '../Images/Floortile.png';
-import { CATEGORIES } from '../constants';
+import { CATEGORIES, MARBELS, GRANITES, TILES } from '../constants';
+import { scrollToComponent } from './helper';
 
 const Categories = () => {
   const categories = [
-    { name: "Marble", image: marbleImage },
-    { name: "Granite", image: graniteImage },
-    { name: "Bathroom Tiles", image: bathroomTilesImage },
-    { name: "Kitchen Tiles", image: kitchenTilesImage },
-    { name: "Floor Tiles", image: floorTilesImage }
+    { name: "Marble", image: marbleImage, scrollTo: MARBELS },
+    { name: "Granite", image: graniteImage, scrollTo: GRANITES },
+    { name: "Bathroom Tiles", image: bathroomTilesImage, scrollTo: TILES },
+    { name: "Kitchen Tiles", image: kitchenTilesImage, scrollTo: TILES },
+    { name: "Floor Tiles", image: floorTilesImage, scrollTo: TILES }
   ];
 
   return (
@@ -36,6 +37,7 @@ const Categories = () => {
                   <div
                     key={index}
                     className="category-card-layout"
+                    onClick={() => scrollToComponent(category.scrollTo)}
                   >
 
                     <div className="category-card-image-container">

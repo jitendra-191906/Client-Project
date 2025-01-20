@@ -17,8 +17,8 @@ const Home = () => {
             <SlideShow/>
             <Categories />
             <Marble/>
-            <Tiles/>
             <Granite/>
+            <Tiles/>
             {/* <Product /> */}
             <About />
             <Feature/>
