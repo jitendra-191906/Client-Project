@@ -9,7 +9,12 @@ import img5 from "../../Images/natural_tile.jpeg";
 import img6 from "../../Images/mosaic_tile.jpeg";
 import img7 from "../../Images/procelain_tile.jpeg";
 import img8 from "../../Images/granite_tile.jpeg";
-import Slideshow1 from '../Slideshow1';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import image1 from "../../Images/home_flooring.jpg";
+import image2 from "../../Images/kitchen_flooring.jpg";
+import image3 from "../../Images/bathroom_flooring.jpeg";
 
 
 const productsList = [
@@ -47,12 +52,55 @@ const productsList = [
     name: "Granite Tile"
   },
 ]
-const TilesProducts = () => {
 
+
+const slides = [
+  {
+    image: image1,
+    title: "Tile Design Trends for a Modern Home",
+  },
+  {
+    image: image2,
+    title: "Modern Tile Designs",
+  },
+  {
+    image: image3,
+    title: "Custom Flooring Solutions",
+  },
+];
+const TilesProducts = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false, // No navigation arrows for simplicity
+  };
 
   return (
     <>
-                <Slideshow1/>
+      {/* <Slideshow1/> */}
+      <div className="testimonials_slideshow">
+        <Slider {...settings}>
+          {slides.map((slide, index) => (
+            <div key={index} className="testimonial_slide">
+              <div
+                className="testimonial_slide_bg"
+                style={{
+                  backgroundImage: `url(${slide.image})`,
+                }}
+              >
+                <div className="testimonial_text_overlay">
+                  {/* <h2 className="testimonial_slide_title">{slide.title}</h2> */}
+                </div>
+              </div>
+            </div>
+          ))}
+        </Slider>
+      </div>
 
       <div className='products-page'>
         <div className='products-page-inner'>

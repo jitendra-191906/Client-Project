@@ -1,59 +1,4 @@
-/* .products-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: -webkit-fill-available;
-}
 
-.products-page-inner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: -webkit-fill-available;
-  padding: 10px 10px;
-}
-
-.products-page-product-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
-  width: -webkit-fill-available;
-  gap: 10px;
-  flex-wrap: wrap;
-  padding: 0px 150px;
-}
-
-.product-card-layout {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 265px;
-  max-width: 300px;
-  gap: 10px;
-  margin-right: auto;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-.product-card-img-sec{
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
-}
-
-.product-card-img {
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
-}
-
-.product-card-name{
-  font-size: 1.2rem;
-  color: gray;
-} */
-
-/* Overall Page */
 .products-page {
   display: flex;
   flex-direction: column;
@@ -114,76 +59,112 @@
 }
 
 
-/* Slideshow Container */
-.slideshow-container {
+
+
+
+/* Testimonials-style slideshow container */
+.testimonials_slideshow {
+  width: 100%;
+  height: 60vh; /* Set to 50% of the viewport height */
   position: relative;
-  width: 100%;
-  max-width: 600px;
-  margin: 20px auto;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Image Wrapper */
-.slideshow-image-wrapper {
-  width: 100%;
-  aspect-ratio: 16 / 9;
   overflow: hidden;
 }
 
-.slideshow-image {
+/* Individual slide container */
+.testimonial_slide {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Navigation Buttons */
-.slideshow-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  z-index: 10;
-  border-radius: 50%;
-  transition: background 0.3s ease;
-}
-
-.slideshow-button:hover {
-  background: rgba(0, 0, 0, 0.8);
-}
-
-.prev-button {
-  left: 10px;
-}
-
-.next-button {
-  right: 10px;
-}
-
-/* Indicators */
-.slideshow-indicators {
+  height: 60vh;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  align-items: center;
 }
 
-.indicator {
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
-  background: #ccc;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background 0.3s ease;
+/* Slide background */
+.testimonial_slide_bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.indicator.active {
-  background: #333;
+/* Text overlay */
+.testimonial_text_overlay {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 50%;
+  animation: fadeIn 1s ease-in-out;
 }
 
+/* Title styling */
+.testimonial_slide_title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* Description styling */
+.testimonial_slide_description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Dots Styling (similar to testimonials) */
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: white;
+  opacity: 0.8;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff5722;
+}
+
+/* Fade-in animation for text overlay */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testimonial_text_overlay {
+    bottom: 15%;
+    left: 5%;
+    max-width: 90%;
+  }
+
+  .testimonial_slide_title {
+    font-size: 2rem;
+  }
+
+  .testimonial_slide_description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial_slide_title {
+    font-size: 1.5rem;
+  }
+
+  .testimonial_slide_description {
+    font-size: 0.9rem;
+  }
+}
