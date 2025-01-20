@@ -2,6 +2,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      background-image: url("../Images/4857390.jpg");
+      background-position: top;
 }
 
 .marble_main_inner {

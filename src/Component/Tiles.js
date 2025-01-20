@@ -13,35 +13,58 @@ import image5 from '../Images/Floor_tiles.png'
 import { TILES } from '../constants'
 import { useNavigate } from 'react-router-dom'
 
+const tilesTypeExample = [
+      {
+            image: image1,
+            name: "Indoor Tiles",
+      },
+      {
+            image: image2,
+            name: "Outdoor Tiles",
+      },
+      {
+            image: image3,
+            name: "Kitchen tiles",
+      },
+      {
+            image: image4,
+            name: "Bathroom Tiles",
+      },
+      // {
+      //       image: image5,
+      //       name: "Floor tiles",
+      // },
+]
 
 function Tiles() {
 
       const navigate = useNavigate();
 
-      const handleClick = () => {
-            window.scrollTo(0, 0);
-            navigate("/tiles");
-      };
-
       return (
             <>
-                  <div id={TILES} className="tiles_section_main">
+                  <div
+                        id={TILES}
+                        className="tiles_section_main"
+                  >
                         <div className='tiles_section_inner'>
-                              <div className="tiles_details_main">
-                                    <div className="tiles_details_img">
+                              <div className="tile_text website_heading_text">
+                                    <h2>Explore our Tiles</h2>
+                              </div>
+                              {/* <div className="tiles_details_main"> */}
+                              {/* <div className="tiles_details_img">
                                           <img
                                                 src={TileImage}
                                                 alt=""
                                                 className='Tiles_image'
                                           />
-                                    </div>
-                                    <div className="tiles_details_section">
-                                          <div className="tiles_details_1">
+                                    </div> */}
+                              {/* <div className="tiles_details_section"> */}
+                              {/* <div className="tiles_details_1">
                                                 <h2>Explore our Tiles</h2>
                                                 <p>We provide wide range of tiles stone including <br /> for kitchen, bathroom, wall, indoor, outdoor <br />
                                                       and for other purpose.</p>
-                                          </div>
-                                          <div className="tiles_details_2">
+                                          </div> */}
+                              {/* <div className="tiles_details_2">
                                                 <div className="tiles_details_2_section">
                                                       <div className="tiles_details_2_section_1">
                                                             <img
@@ -75,66 +98,44 @@ function Tiles() {
                                                             <p>Cement tiles</p>
                                                       </div>
                                                 </div>
-                                          </div>
+                                          </div> */}
 
-                              </div>
-                        </div>
-                        <div className="tiles_type_main">
-                              <div className="tiles_type_continer">
-                                    <div className="tiles_image_section">
-                                          <img
-                                                src={image1}
-                                                alt=""
-                                                className='image_of_tiles'
-                                          />
-                                    </div>
-                                    <div className="tiles_name">Indoor Tiles</div>
-                              </div>
-                              <div className="tiles_type_continer">
-                                    <div className="tiles_image_section">
-                                          <img
-                                                src={image2}
-                                                alt=""
-                                                className='image_of_tiles'
-                                          />
-                                    </div>
-                                    <div className="tiles_name">Outdoor Tiles</div>
-                              </div>
-                              <div className="tiles_type_continer">
-                                    <div className="tiles_image_section">
-                                          <img
-                                                src={image3}
-                                                alt=""
-                                                className='image_of_tiles'
-                                          />
-                                    </div>
-                                    <div className="tiles_name">Kitchen tiles</div>
-                              </div>
-                              <div className="tiles_type_continer">
-                                    <div className="tiles_image_section">
-                                          <img
-                                                src={image4}
-                                                alt=""
-                                                className='image_of_tiles'
-                                          />
-                                    </div>
-                                    <div className="tiles_name"> Bathroom Tiles</div>
-                              </div>
-                              <div className="tiles_type_continer">
-                                    <div className="tiles_image_section">
-                                          <img
-                                                src={image5}
-                                                alt=""
-                                                className='image_of_tiles'
-                                          />
-                                    </div>
-                                    <div className="tiles_name">Floor tiles</div>
-                              </div>
-                        </div>
-                        <div className="Tile_explore_section">
-                        <button className='tile_explore_button' onClick={handleClick} >Show More</button>
+                              {/* </div> */}
+                              {/* </div> */}
 
+                              <div className="marble_inner_type_sec">
+                                    {
+                                          tilesTypeExample.map((type, index) => {
+                                                return (
+                                                      <React.Fragment key={index}>
+                                                            <div
+                                                                  className="marble_type_deatils"
+                                                                  onClick={() => navigate("/marble")}
+                                                            >
+                                                                  <div className="marble_type_img">
+                                                                        <img
+                                                                              src={type.image}
+                                                                              alt=""
+                                                                              className='marble_type_image'
+                                                                        />
+                                                                  </div>
+                                                                  <div className="marble_type_text">
+                                                                        {type.name}
+                                                                  </div>
+                                                            </div>
+                                                      </React.Fragment>
+                                                )
+                                          })
+                                    }
+                              </div>
 
+                              <div className="marble_inner_bottom">
+                                    <button
+                                          className='marble_explore_button'
+                                          onClick={() => navigate("/tiles")}
+                                    >
+                                          Show More
+                                    </button>
                               </div>
                         </div>
                   </div>
@@ -142,4 +143,4 @@ function Tiles() {
       )
 }
 
-export default Tiles
+export default Tiles;

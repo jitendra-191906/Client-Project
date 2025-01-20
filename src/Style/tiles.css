@@ -2,6 +2,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      background-image: url("../Images/15628817_5655049.jpg");
+      background-position: center;
 }
 
 .tiles_section_inner{
@@ -10,6 +12,7 @@
       justify-content: center;
       align-items: center;
       gap: 10px;
+      padding: 10px 10px;
 }
 
 .tiles_details_main {
