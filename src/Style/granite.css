@@ -24,7 +24,7 @@
 
 }
 
-.granite_quality_main {
+/* .granite_quality_main {
       display: grid;
       margin-left: 30px;
       width: 600px;
@@ -37,7 +37,7 @@
 .granite_feature_4 {
       display: grid;
       grid-template: repeat(2, 1fr);
-}
+} */
 
 .granite_inner_types_sec {
       display: grid;

@@ -1,12 +1,78 @@
 .marble_main {
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      gap: 15px;
-      padding-bottom: 5px;
+      justify-content: center;
+      align-items: center;
 }
 
-.marble_details_section {
+.marble_main_inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      padding: 10px;
+      width: -webkit-fill-available;
+}
+
+.marble_text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.marble_inner_type_sec {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+}
+
+.marble_type_deatils {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      gap: 7px;
+      cursor: pointer;
+}
+
+.marble_type_img {
+      width: -webkit-fill-available;
+
+}
+
+.marble_type_image {
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+      border-radius: 3px;
+}
+
+.marble_type_text {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #000000db;
+}
+
+.marble_inner_bottom {
+      width: -webkit-fill-available;
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      top: -51px;
+}
+
+.marble_explore_button {
+      width: 100px;
+      padding: 10px;
+      border-radius: 6px;
+      background-color: #00000000;
+      color: #070707;
+      border: none;
+      font-weight: 600;
+      box-shadow: 0px 0px 3px 0px gray;
+      cursor: pointer;
+}
+
+/* .marble_details_section {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -46,11 +112,10 @@
 .marble_type_div {
       width: 15%;
       height: 15%;
-      
+
 }
 
-.marble_type_img {
-}
+.marble_type_img {}
 
 .marble_image {
       width: -webkit-fill-available;
@@ -64,30 +129,33 @@
 
 .explore_button {
       width: 400px;
-      padding:15px;
+      padding: 15px;
       border-radius: 2px;
       border: none;
       background-color: #c0a344;
       color: white;
 
 }
-.explore_button:hover{
+
+.explore_button:hover {
       background-color: #124046;
       border-radius: 10px;
 
 }
-        
+
 .marble_explore_section {
       display: flex;
       flex-direction: column;
       align-items: center;
       font-size: 1.2rem;
 }
-@media (max-width:1050px){
+
+@media (max-width:1050px) {
       .marble_type_div {
             width: 190px;
 
       }
+
       .marble_image_section {
             width: 400px;
             height: 260px;
@@ -104,18 +172,19 @@
 
 
 }
+
 @media(max-width:970px) and (min-width:750px) {
 
       .marble_type_div {
             width: 170px;
 
       }
-     
+
       .marble_image_section {
             width: 400px;
             height: 260px;
       }
-     
+
       .explore_button {
             width: 270px;
       }
@@ -129,6 +198,7 @@
             padding: 10px;
 
       }
+
       .marble_image_section {
             width: 280px;
             height: 260px;
@@ -156,112 +226,122 @@
 }
 
 @media (max-width:649px) and (min-width:550px) {
-   .marble_details{
-      font-size: .9rem;
-   } 
-   .explore_button {
-      width: 270px;
-}
+      .marble_details {
+            font-size: .9rem;
+      }
 
-.marble_type_div {
-      width: 150px;
-      height: 200px;
-}
+      .explore_button {
+            width: 270px;
+      }
 
-.marble_type_div {
-      font-size: .8rem;
-}
+      .marble_type_div {
+            width: 150px;
+            height: 200px;
+      }
+
+      .marble_type_div {
+            font-size: .8rem;
+      }
 }
 
 @media (max-width:549px) and (min-width:500px) {
-     .marble_details{
-      width: 400px;
-      font-size: .89rem;
-     }
-     .marble_image_section {
-      width: 230px;
-      height: 260px;
-}
+      .marble_details {
+            width: 400px;
+            font-size: .89rem;
+      }
+
+      .marble_image_section {
+            width: 230px;
+            height: 260px;
+      }
+
       .explore_button {
-         width: 200px;
-   }
-   
-   .marble_type_div {
-         width: 130px;
-         height: 180px;
-   }
-   
-   .marble_type_div {
-         font-size: .8rem;
-   }
-   }
-   @media (max-width:499px) and (min-width:450px) {
-      .marble_details{
-       width: 400px;
-       font-size: .83rem;
+            width: 200px;
       }
-      .marble_image_section {
-       width: 230px;
-       height: 260px;
- }
-       .explore_button {
-          width: 200px;
-    }
-    
-    .marble_type_div {
-          width: 130px;
-          height: 180px;
-    }
-    
-    .marble_type_div {
-          font-size: .63rem;
-    }
-    }
 
-    @media (max-width:449px) and (min-width:400px) {
-      .marble_details{
-       width: 400px;
-       font-size: .81rem;
+      .marble_type_div {
+            width: 130px;
+            height: 180px;
       }
-      .marble_image_section {
-       width: 190px;
-       height: 260px;
- }
-       .explore_button {
-          width: 170px;
-    }
-    
-    .marble_type_div {
-          width: 110px;
-          height: 160px;
-    }
-    
-    .marble_type_div {
-          font-size: .63rem;
-    }
-    }
 
-
-    @media (max-width:399px) and (min-width:300px) {
-      .marble_details{
-       width: 250px;
-       font-size: .61rem;
+      .marble_type_div {
+            font-size: .8rem;
       }
+}
+
+@media (max-width:499px) and (min-width:450px) {
+      .marble_details {
+            width: 400px;
+            font-size: .83rem;
+      }
+
       .marble_image_section {
-       width: 170px;
-       height: 200px;
- }
-       .explore_button {
-          width: 170px;
-    }
-    
-    .marble_type_div {
-          width: 100px;
-          height: 150px;
-    }
-  
-    
-    .marble_type_div {
-          font-size: .63rem;
-    }
-    }
+            width: 230px;
+            height: 260px;
+      }
+
+      .explore_button {
+            width: 200px;
+      }
+
+      .marble_type_div {
+            width: 130px;
+            height: 180px;
+      }
+
+      .marble_type_div {
+            font-size: .63rem;
+      }
+}
+
+@media (max-width:449px) and (min-width:400px) {
+      .marble_details {
+            width: 400px;
+            font-size: .81rem;
+      }
+
+      .marble_image_section {
+            width: 190px;
+            height: 260px;
+      }
+
+      .explore_button {
+            width: 170px;
+      }
+
+      .marble_type_div {
+            width: 110px;
+            height: 160px;
+      }
+
+      .marble_type_div {
+            font-size: .63rem;
+      }
+}
+
+
+@media (max-width:399px) and (min-width:300px) {
+      .marble_details {
+            width: 250px;
+            font-size: .61rem;
+      }
+
+      .marble_image_section {
+            width: 170px;
+            height: 200px;
+      }
+
+      .explore_button {
+            width: 170px;
+      }
+
+      .marble_type_div {
+            width: 100px;
+            height: 150px;
+      }
+
+
+      .marble_type_div {
+            font-size: .63rem;
+      }
+} */

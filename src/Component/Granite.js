@@ -128,9 +128,9 @@ function Granite() {
                                           graniteTypesExample.map((type, index) => {
                                                 return (
                                                       <React.Fragment key={index}>
-                                                            <div 
-                                                            className="granite_type_deatils"
-                                                            onClick={() => navigate("/granite")}
+                                                            <div
+                                                                  className="granite_type_deatils"
+                                                                  onClick={() => navigate("/granite")}
                                                             >
                                                                   <div className="granite_type_img">
                                                                         <img
