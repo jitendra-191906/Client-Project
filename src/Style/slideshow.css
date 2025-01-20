@@ -1,9 +1,9 @@
 /* Testimonials-style slideshow container */
 .testimonials_slideshow {
-      width: 100%;
-      height: 60vh; /* Set to 50% of the viewport height */
-      position: relative;
-      overflow: hidden;
+      /* width: 100%; */
+      /* height: 60vh;  */
+      /* position: relative; */
+      /* overflow: hidden; */
     }
     
     /* Individual slide container */
@@ -24,8 +24,7 @@
       background-repeat: no-repeat;
       position: relative;
     }
-    
-    /* Text overlay */
+/*     
     .testimonial_text_overlay {
       position: absolute;
       bottom: 20%;
@@ -36,7 +35,6 @@
       animation: fadeIn 1s ease-in-out;
     }
     
-    /* Title styling */
     .testimonial_slide_title {
       font-size: 2.5rem;
       font-weight: bold;
@@ -44,12 +42,11 @@
       text-transform: uppercase;
     }
     
-    /* Description styling */
     .testimonial_slide_description {
       font-size: 1.2rem;
       line-height: 1.5;
       margin-bottom: 20px;
-    }
+    } */
     
     /* Dots Styling (similar to testimonials) */
     .slick-dots {

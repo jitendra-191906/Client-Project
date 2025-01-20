@@ -6,6 +6,8 @@ import '../Style/slideshow.css';
 import img1 from '../Images/GraniteFlooring.jpeg';
 import img2 from '../Images/TileFlooring.jpg';
 import img3 from '../Images/image3show.jpg';
+import img4 from '../Images/showroom_interior.jpeg';
+import img5 from '../Images/image3show.jpg';
 
 const slides = [
   {
@@ -17,6 +19,16 @@ const slides = [
     image: img2,
     title: "Modern Tile Designs",
     description: "Upgrade your spaces with tiles crafted for durability and style.",
+  },
+  {
+    image: img3,
+    title: "Custom Flooring Solutions",
+    description: "Tailored solutions for your dream interiors.",
+  },
+  {
+    image: img4,
+    title: "Custom Flooring Solutions",
+    description: "Tailored solutions for your dream interiors.",
   },
   {
     image: img3,
@@ -49,8 +61,8 @@ const SlideShow = () => {
               }}
             >
               <div className="testimonial_text_overlay">
-                <h2 className="testimonial_slide_title">{slide.title}</h2>
-                <p className="testimonial_slide_description">{slide.description}</p>
+                {/* <h2 className="testimonial_slide_title">{slide.title}</h2> */}
+                {/* <p className="testimonial_slide_description">{slide.description}</p> */}
               </div>
             </div>
           </div>
