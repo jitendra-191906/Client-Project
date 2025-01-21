@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../Style/products.css"
+import "../../Style/productsSection.css"
 
 import img1 from "../../Images/black_marble.png";
 

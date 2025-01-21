@@ -67,7 +67,7 @@ function Marble() {
                                                       <React.Fragment key={index}>
                                                             <div
                                                                   className="marble_type_deatils"
-                                                                  onClick={() => navigate("/marble")}
+                                                                  onClick={() => handleClick()}
                                                             >
                                                                   <div className="marble_type_img">
                                                                         <img
@@ -89,7 +89,7 @@ function Marble() {
                               <div className="marble_inner_bottom">
                                     <button
                                           className='marble_explore_button'
-                                          onClick={() => navigate("/marble")}
+                                          onClick={() => handleClick() }
                                     >
                                           Show More
                                     </button>

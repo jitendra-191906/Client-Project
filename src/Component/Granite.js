@@ -18,7 +18,7 @@ const graniteTypesExample = [
             name: "Absolute Black",
       },
       {
-            image: GraniteTypeImage3,
+            image: GraniteTypeImage2,
             name: "Majestic lappato granite",
       },
       {
@@ -35,6 +35,11 @@ const graniteTypesExample = [
 function Granite() {
 
       const navigate = useNavigate();
+      const handleClick = () => {
+            window.scrollTo(0, 0);
+            navigate("/granite");
+
+      };
 
       return (
             <>
@@ -130,7 +135,7 @@ function Granite() {
                                                       <React.Fragment key={index}>
                                                             <div
                                                                   className="granite_type_deatils"
-                                                                  onClick={() => navigate("/granite")}
+                                                                  onClick={() => handleClick()}
                                                             >
                                                                   <div className="granite_type_img">
                                                                         <img
@@ -152,7 +157,7 @@ function Granite() {
                               <div className="granite_inner_bottom">
                                     <button
                                           className='granite_explore_button'
-                                          onClick={() => navigate("/granite")}
+                                          onClick={() => handleClick()}
                                     >
                                           Show More
                                     </button>

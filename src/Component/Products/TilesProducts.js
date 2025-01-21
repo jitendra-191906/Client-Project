@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../Style/products.css"
+import "../../Style/productsSection.css"
 
 import img1 from "../../Images/ceramic_tile.jpeg";
 import img2 from "../../Images/glass_tile.jpeg";
@@ -80,6 +80,7 @@ const TilesProducts = () => {
     arrows: false, // No navigation arrows for simplicity
   };
 
+ 
   return (
     <>
       {/* <Slideshow1/> */}
