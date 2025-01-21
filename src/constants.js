@@ -13,3 +13,11 @@ export const TILES = "TILE";
 export const GRANITES = "GRANITE";
 export const PRODUCTS = "PRODUCTS";
 
+// Routes
+export const marble = "/marble";
+export const granite = "/granite";
+export const tile_kitchen = "/tile/kitchen";
+export const tile_bathroom = "/tile/bathroom";
+export const tile_floor = "/tile/floor";
+export const tile_indoor = "/tile/indoor";
+export const tile_outdoor = "/tile/outdoor";

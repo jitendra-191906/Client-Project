@@ -1,23 +1,26 @@
 
 .products-page {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 20px;
+  justify-content: center;
   background-color: #f9f9f9;
 }
 
 .products-page-inner {
-  max-width: 1200px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: -webkit-fill-available;
+  padding: 20px;
 }
 
-/* Product Section */
 .products-page-product-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px 0;
+  width: -webkit-fill-available;
 }
 
 /* Product Card */
