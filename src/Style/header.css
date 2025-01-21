@@ -3,18 +3,21 @@
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
-    /* position:sticky; */
+    /* position:fixed;
+    top: 0; */
     font-size: 1.2rem;
+    z-index: 10;
     letter-spacing: 1px;
-    background-color: #e5dadaa8;
+    background-color: black;
   }
 
 .navbar_logo{
-    width: 200px;
+    width: fit-content;
+    object-fit: cover;
+
 }
 .logo{
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    width: 100px;
 }
 
 .navbar_links{
@@ -28,17 +31,12 @@
     transform: scale(1.1);
 }
 
-/* .navbar_items:hover {
-    border-radius: 5rem;
-    color: #007bff;
-    cursor: pointer;
 
-} */
 .navbar_items{
   position: relative;
   text-decoration: none;
   font-weight: 400;
-  color: rgb(8, 8, 8);
+  color: rgb(247, 247, 247);
   transition: all .35s ease;
 
   &::before {
@@ -48,7 +46,7 @@
       height: 2px;
       bottom: 0;
       left: 0;
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(174, 152, 152);
       visibility: hidden;
       -webkit-transform: scaleX(0);
       transform: scaleX(0);
@@ -85,7 +83,7 @@
   
   .menu_icon .cross {
     font-size: 1.5rem;
-    color: #333;
+    color: #fdf4f4;
     cursor: pointer;
    
   }

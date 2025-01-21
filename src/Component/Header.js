@@ -7,21 +7,14 @@ import { scrollToComponent } from './helper';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isProductsOpen, setIsProductsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const toggleProductsDropdown = () => {
-    setIsProductsOpen(!isProductsOpen);
-
-
-  };
-
+ 
   const closeAllMenus = () => {
     setIsMenuOpen(false);
-    setIsProductsOpen(false);
   };
 
   return (
@@ -31,7 +24,9 @@ function Header() {
           <img src={img1} alt="Company Logo" className="logo" />
         </div>
 
-        <div className="menu_icon" onClick={toggleMenu}>
+        <div className="menu_icon" 
+        onClick={toggleMenu}
+        >
           {isMenuOpen ? (
             <span className="cross">&times;</span>
           ) : (
