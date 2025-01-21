@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../Style/products.css';
-import { PRODUCTS } from '../constants'
+import { MARBELS, GRANITES, TILES } from '../constants'
 
 
 import image1 from '../Images/white_marble.png';
@@ -27,17 +27,7 @@ const allProducts = [
       { image: image4, name: "Red Marble" },
     ],
     path: "/marble",
-  },
-  {
-    title: "Explore our Tiles Collection",
-    data: [
-      { 
-        image: img1, name: "Indoor Tiles" },
-      { image: img2, name: "Outdoor Tiles" },
-      { image: img3, name: "Kitchen Tiles" },
-      { image: img4, name: "Bathroom Tiles" },
-    ],
-    path: "/tiles",
+    id: MARBELS,
   },
   {
     title: "Explore our Granite Collection",
@@ -48,40 +38,133 @@ const allProducts = [
       { image: GraniteTypeImage4, name: "Rajasthan Black Granite" },
     ],
     path: "/granite",
+    id: GRANITES,
+  },
+  {
+    title: "Explore our Kitchen Tiles Collection",
+    data: [
+      {
+        image: img1, name: "Indoor Tiles"
+      },
+      { image: img2, name: "Outdoor Tiles" },
+      { image: img3, name: "Kitchen Tiles" },
+      { image: img4, name: "Bathroom Tiles" },
+    ],
+    path: "/tiles",
+    id: TILES,
+  },
+  {
+    title: "Explore our Bathroom Tiles Collection",
+    data: [
+      {
+        image: img1, name: "Indoor Tiles"
+      },
+      { image: img2, name: "Outdoor Tiles" },
+      { image: img3, name: "Kitchen Tiles" },
+      { image: img4, name: "Bathroom Tiles" },
+    ],
+    path: "/tiles",
+    id: TILES,
+  },
+  {
+    title: "Explore our Indoor Tiles Collection",
+    data: [
+      {
+        image: img1, name: "Indoor Tiles"
+      },
+      { image: img2, name: "Outdoor Tiles" },
+      { image: img3, name: "Kitchen Tiles" },
+      { image: img4, name: "Bathroom Tiles" },
+    ],
+    path: "/tiles",
+    id: TILES,
+  },
+  {
+    title: "Explore our Outdoor Tiles Collection",
+    data: [
+      {
+        image: img1, name: "Indoor Tiles"
+      },
+      { image: img2, name: "Outdoor Tiles" },
+      { image: img3, name: "Kitchen Tiles" },
+      { image: img4, name: "Bathroom Tiles" },
+    ],
+    path: "/tiles",
+    id: TILES,
+  },
+  {
+    title: "Explore our Floor Tiles Collection",
+    data: [
+      {
+        image: img1, name: "Indoor Tiles"
+      },
+      { image: img2, name: "Outdoor Tiles" },
+      { image: img3, name: "Kitchen Tiles" },
+      { image: img4, name: "Bathroom Tiles" },
+    ],
+    path: "/tiles",
+    id: TILES,
   },
 ];
 
 
-const ProductSection = ({ title, products, onNavigate }) => {
+const ProductSection = (props) => {
+
+  const { title, products, onNavigate, id } = props;
+
   return (
-    <div id={PRODUCTS} className="product_section">
-      <div className="product_title">
-        <h2>{title}</h2>
+    <div
+      id={id}
+      className="product_section"
+    >
+
+      <div className="product_title website_heading_text">
+        <h2>
+          {title}
+        </h2>
       </div>
+
       <div className="product_grid">
-        {products.map((product, index) => (
-          <div
-            key={index}
-            className="product_card"
-            onClick={onNavigate}
-          >
-            <div className="product_image">
-              <img src={product.image} alt={product.name} />
-            </div>
-            <div className="product_name">{product.name}</div>
-          </div>
-        ))}
+        {
+          products.map((product, index) => {
+            return (
+              <React.Fragment key={index}>
+                <div
+                  key={index}
+                  className="product_card"
+                  onClick={() => onNavigate()}
+                >
+                  <div className="product_image">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                    />
+                  </div>
+                  <p className="product_name">
+                    {product.name}
+                  </p>
+                </div>
+              </React.Fragment>
+            )
+          })
+        }
       </div>
+
       <div className="product_show_more">
-        <button className="explore_button" onClick={onNavigate}>
+        <button
+          className="explore_button"
+          onClick={() => onNavigate()}
+        >
           Show More
         </button>
       </div>
+
     </div>
   );
 };
 
 function Products() {
+
   const navigate = useNavigate();
 
   const handleNavigate = (path) => {
@@ -90,15 +173,24 @@ function Products() {
   };
 
   return (
-    <div className="products_main">
-      {allProducts.map((section, index) => (
-        <ProductSection
-          key={index}
-          title={section.title}
-          products={section.data}
-          onNavigate={() => handleNavigate(section.path)}
-        />
-      ))}
+    <div className="home_products_main">
+      <div className='home_products_inner'>
+        {
+          allProducts.map((section, index) => {
+            return (
+              <React.Fragment key={index}>
+                <ProductSection
+                  key={index}
+                  title={section.title}
+                  products={section.data}
+                  id={section.id}
+                  onNavigate={() => handleNavigate(section.path)}
+                />
+              </React.Fragment>
+            )
+          })
+        }
+      </div>
     </div>
   );
 }
