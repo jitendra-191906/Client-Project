@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../Style/header.css';
 import img1 from '../Images/Logo.png';
 
-import { ABOUT_US, TESTIMONIALS, LETS_CONNECT, HEADER, MARBELS, TILES, GRANITES } from '../constants';
+import { ABOUT_US, TESTIMONIALS, LETS_CONNECT, HEADER, MARBELS, TILES, GRANITES, PRODUCTS } from '../constants';
 import { scrollToComponent } from './helper';
 
 function Header() {
@@ -16,7 +16,7 @@ function Header() {
   const toggleProductsDropdown = () => {
     setIsProductsOpen(!isProductsOpen);
 
-   
+
   };
 
   const closeAllMenus = () => {
@@ -33,7 +33,7 @@ function Header() {
 
         <div className="menu_icon" onClick={toggleMenu}>
           {isMenuOpen ? (
-            <span className="cross">&times;</span> 
+            <span className="cross">&times;</span>
           ) : (
             <>
               <span className="dot"></span>
@@ -54,39 +54,14 @@ function Header() {
             About
           </div>
 
-          <div className="navbar_items" onClick={toggleProductsDropdown}>
+          <div className="navbar_items" onClick={() => {
+            // toggleProductsDropdown();
+            scrollToComponent(PRODUCTS);
+            closeAllMenus();
+
+          }
+          }>
             Products
-            <div
-              className={`products_dropdown ${isProductsOpen ? 'open' : ''}`}
-            >
-              <div
-                className="dropdown_item"
-                onClick={() => {
-                  scrollToComponent(MARBELS);
-                  closeAllMenus();
-                }}
-              >
-                Marble
-              </div>
-              <div
-                className="dropdown_item"
-                onClick={() => {
-                  scrollToComponent(GRANITES);
-                  closeAllMenus();
-                }}
-              >
-                Granite
-              </div>
-              <div
-                className="dropdown_item"
-                onClick={() => {
-                  scrollToComponent(TILES);
-                  closeAllMenus();
-                }}
-              >
-                Tile
-              </div>
-            </div>
           </div>
 
           <div

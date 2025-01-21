@@ -1,8 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../Style/products.css';
+import { PRODUCTS } from '../constants'
 
-// import image1 from '../Images/marble_image.png';
+
 import image1 from '../Images/white_marble.png';
 import image2 from '../Images/green_marble.jpeg';
 import image3 from '../Images/red_marble.png';
@@ -30,7 +31,8 @@ const allProducts = [
   {
     title: "Explore our Tiles Collection",
     data: [
-      { image: img1, name: "Indoor Tiles" },
+      { 
+        image: img1, name: "Indoor Tiles" },
       { image: img2, name: "Outdoor Tiles" },
       { image: img3, name: "Kitchen Tiles" },
       { image: img4, name: "Bathroom Tiles" },
@@ -52,7 +54,7 @@ const allProducts = [
 
 const ProductSection = ({ title, products, onNavigate }) => {
   return (
-    <div className="product_section">
+    <div id={PRODUCTS} className="product_section">
       <div className="product_title">
         <h2>{title}</h2>
       </div>

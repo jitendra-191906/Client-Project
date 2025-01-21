@@ -11,3 +11,5 @@ export const CATEGORIES = "CATEGORIES";
 export const MARBELS = "MARBEL";
 export const TILES = "TILE";
 export const GRANITES = "GRANITE";
+export const PRODUCTS = "PRODUCTS";
+

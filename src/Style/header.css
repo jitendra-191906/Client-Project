@@ -3,11 +3,10 @@
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
-    position: sticky;
+    /* position:sticky; */
     font-size: 1.2rem;
     letter-spacing: 1px;
     background-color: #e5dadaa8;
-    height: 250PX;
   }
 
 .navbar_logo{
@@ -22,7 +21,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 500px;
+    width: 400px;
 
 }
 .navbar_logo img:hover {
