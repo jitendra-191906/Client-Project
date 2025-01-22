@@ -1,13 +1,13 @@
 import React from "react";
 import "../Style/footer.css";
-import LogoImage from '../Images/Logo.png';
-import ContactImg from '../Images/contactimg.png'
-import LocationImg from '../Images/locationimg.png'
-import EmailImg from '../Images/emailimg.png'
-import Instagram from '../Images/instagram.png';
-import Youtube from '../Images/youtube.png';
-import Whatsapp from '../Images/whatsapp.png';
-import Linkedin from '../Images/linkedin.png';
+import LogoImage from '../Images/Logo_Image/Logo.png';
+import ContactImg from '../Images/Social_Images/contactimg.png'
+import LocationImg from '../Images/Social_Images/locationimg.png'
+import EmailImg from '../Images/Social_Images/emailimg.png'
+import Instagram from '../Images/Social_Images/instagram.png';
+import Youtube from '../Images/Social_Images/youtube.png';
+import Whatsapp from '../Images/Social_Images/whatsapp.png';
+import Linkedin from '../Images/Social_Images/linkedin.png';
 
 import {
   LETS_CONNECT,

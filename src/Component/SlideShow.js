@@ -3,11 +3,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../Style/slideshow.css';
-import img1 from '../Images/GraniteFlooring.jpeg';
-import img2 from '../Images/TileFlooring.jpg';
-import img3 from '../Images/image3show.jpg';
-import img4 from '../Images/showroom_interior.jpeg';
-import img5 from '../Images/image3show.jpg';
+import img1 from '../Images/Granite_design/GraniteFlooring.jpeg';
+import img2 from '../Images/Indoor_design/TileFlooring.jpg';
+import img3 from '../Images/Marble_design/image3show.jpg';
+import img4 from '../Images/Bathroom_design/showroom_interior.jpeg';
+import img5 from '../Images/Marble_design/image3show.jpg';
 
 const slides = [
   {

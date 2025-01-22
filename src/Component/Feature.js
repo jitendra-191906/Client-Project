@@ -1,9 +1,9 @@
 import React from 'react'
 import '../Style/feature.css'
-import img1 from '../Images/wide_varity.png'
-import img2 from '../Images/Quality.png'
-import img3 from '../Images/Multiple.png'
-import img4 from '../Images/expert.png'
+import img1 from '../Images/Category_Images/wide_varity.png'
+import img2 from '../Images/Category_Images/Quality.png'
+import img3 from '../Images/Category_Images/Multiple.png'
+import img4 from '../Images/Category_Images/expert.png'
 
 import { WHY_TO_CHOOSE } from '../constants'
 

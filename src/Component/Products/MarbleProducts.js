@@ -3,19 +3,19 @@ import "../../Style/productsSection.css"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import img1 from "../../Images/white_marble.jpeg";
-import img2 from "../../Images/travertine_marble.jpeg";
-import img3 from "../../Images/onyx_marble.jpeg";
-import img4 from "../../Images/statuario_marble.jpeg";
-import img5 from "../../Images/Italian_marble.jpeg";
-import img6 from "../../Images/black_marquina_marble.jpeg";
-import img7 from "../../Images/Grey_William_Italian_Marble.jpeg";
-import img8 from "../../Images/Emperador_Marble.jpeg";
+import img1 from "../../Images/Marble/white_marble.jpeg";
+import img2 from "../../Images/Marble/travertine_marble.jpeg";
+import img3 from "../../Images/Marble/onyx_marble.jpeg";
+import img4 from "../../Images/Marble/statuario_marble.jpeg";
+import img5 from "../../Images/Marble/Italian_marble.jpeg";
+import img6 from "../../Images/Marble/black_marquina_marble.jpeg";
+import img7 from "../../Images/Marble/Grey_William_Italian_Marble.jpeg";
+import img8 from "../../Images/Marble/Emperador_Marble.jpeg";
 
 
-import image1 from "../../Images/marble_flooring_1.jpg";
-import image2 from "../../Images/marble_flooring_2.jpeg";
-import image3 from "../../Images/marble_flooring_3.jpeg";
+import image1 from "../../Images/Marble_design/marble_flooring_1.jpg";
+import image2 from "../../Images/Marble_design/marble_flooring_2.jpeg";
+import image3 from "../../Images/Marble_design/marble_flooring_3.jpeg";
 
 
 const productsList = [

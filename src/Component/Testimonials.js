@@ -1,8 +1,8 @@
 import React from "react";
 import "../Style/testimonials.css";
-import customer1 from '../Images/cust1.png';
-import customer2 from '../Images/cust2.png';
-import customer3 from '../Images/cust3.jpg';
+import customer1 from '../Images/Customer_Images/cust1.png';
+import customer2 from '../Images/Customer_Images/cust2.png';
+import customer3 from '../Images/Customer_Images/cust3.jpg';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

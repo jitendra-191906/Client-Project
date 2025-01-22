@@ -1,20 +1,20 @@
 import React from 'react'
 import "../../Style/productsSection.css"
 
-import img1 from "../../Images/ceramic_tile.jpeg";
-import img2 from "../../Images/glass_tile.jpeg";
-import img3 from "../../Images/cement_tile.jpeg";
-import img4 from "../../Images/travertine_tile.jpeg";
-import img5 from "../../Images/natural_tile.jpeg";
-import img6 from "../../Images/mosaic_tile.jpeg";
-import img7 from "../../Images/procelain_tile.jpeg";
-import img8 from "../../Images/granite_tile.jpeg";
+import img1 from "../../Images/Outdoor/ceramic_tile.jpeg";
+import img2 from "../../Images/Indoor/glass_tile.jpeg";
+import img3 from "../../Images/Indoor/cement_tile.jpeg";
+import img4 from "../../Images/Outdoor/travertine_tile.jpeg";
+import img5 from "../../Images/Outdoor/natural_tile.jpeg";
+import img6 from "../../Images/Indoor/mosaic_tile.jpeg";
+import img7 from "../../Images/Outdoor/procelain_tile.jpeg";
+import img8 from "../../Images/Granite/granite_tile.jpeg";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import image1 from "../../Images/home_flooring.jpg";
-import image2 from "../../Images/kitchen_flooring.jpg";
-import image3 from "../../Images/bathroom_flooring.jpeg";
+import image1 from "../../Images/Floor_design/home_flooring.jpg";
+import image2 from "../../Images/Kitchen_design/kitchen_flooring.jpg";
+import image3 from "../../Images/Bathroom_design/bathroom_flooring.jpeg";
 
 
 const productsList = [

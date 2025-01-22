@@ -1,11 +1,11 @@
 import React from 'react';
 import '../Style/categories.css';
 
-import marbleImage from '../Images/Marbel.png';
-import graniteImage from '../Images/Granite.png';
-import bathroomTilesImage from '../Images/bathroomtile.png';
-import kitchenTilesImage from '../Images/kitchentile.png';
-import floorTilesImage from '../Images/Floortile.png';
+import marbleImage from '../Images/Category_Images/Marbel.png';
+import graniteImage from '../Images/Category_Images/Granite.png';
+import bathroomTilesImage from '../Images/Category_Images/bathroomtile.png';
+import kitchenTilesImage from '../Images/Category_Images/kitchentile.png';
+import floorTilesImage from '../Images/Category_Images/Floortile.png';
 import { CATEGORIES, MARBELS, GRANITES, TILES } from '../constants';
 import { useScrollToComponent } from './helper';
 

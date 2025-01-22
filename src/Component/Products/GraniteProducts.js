@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../Style/productsSection.css"
 
-import img1 from "../../Images/black_marble.png";
+import img1 from "../../Images/Marble/black_marble.png";
 
 
 const productsList = [

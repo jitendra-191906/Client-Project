@@ -20,7 +20,7 @@ const Home = () => {
             {/* <Granite/> */}
             {/* <Tiles/> */}
             <Product />
-            {/* <About /> */}
+            <About />
             <Feature />
             <Letconnect />
             <Testimonials />

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../Style/header.css';
-import img1 from '../Images/Logo.png';
+import img1 from '../Images/Logo_Image/Logo.png';
 
 import { ABOUT_US, TESTIMONIALS, LETS_CONNECT, HEADER, MARBELS, TILES, GRANITES, PRODUCTS } from '../constants';
 import { useScrollToComponent } from './helper';

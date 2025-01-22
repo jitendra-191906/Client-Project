@@ -1,7 +1,7 @@
 import React from 'react'
-import ContactImg from '../Images/contactimg.png'
-import LocationImg from '../Images/locationimg.png'
-import EmailImg from '../Images/emailimg.png'
+import ContactImg from '../Images/Social_Images/contactimg.png'
+import LocationImg from '../Images/Social_Images/locationimg.png'
+import EmailImg from '../Images/Social_Images/emailimg.png'
 import '../Style/letconnect.css'
 import { LETS_CONNECT } from '../constants'
 
