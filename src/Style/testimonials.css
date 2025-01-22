@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   width: -webkit-fill-available;
-  padding: 20px;
+  padding: 21px;
 }
 
 
@@ -100,19 +100,20 @@
   .slick-list {
     padding: 0px 5px !important;
   }
-  .slick-active{
+
+  .slick-active {
     padding-left: 7vw;
   }
 }
 
 @media (max-width:400px) {
-  .slick-active{
+  .slick-active {
     padding-left: 2vw;
   }
 }
 
 @media (max-width:370px) {
-  .slick-active{
+  .slick-active {
     padding-left: 0px;
   }
 }
