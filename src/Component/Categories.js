@@ -7,9 +7,12 @@ import bathroomTilesImage from '../Images/bathroomtile.png';
 import kitchenTilesImage from '../Images/kitchentile.png';
 import floorTilesImage from '../Images/Floortile.png';
 import { CATEGORIES, MARBELS, GRANITES, TILES } from '../constants';
-import { scrollToComponent } from './helper';
+import { useScrollToComponent } from './helper';
 
 const Categories = () => {
+
+  const scrollToComponent = useScrollToComponent();
+
   const categories = [
     { name: "Marble", image: marbleImage, scrollTo: MARBELS },
     { name: "Granite", image: graniteImage, scrollTo: GRANITES },

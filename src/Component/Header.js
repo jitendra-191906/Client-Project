@@ -3,10 +3,14 @@ import '../Style/header.css';
 import img1 from '../Images/Logo.png';
 
 import { ABOUT_US, TESTIMONIALS, LETS_CONNECT, HEADER, MARBELS, TILES, GRANITES, PRODUCTS } from '../constants';
-import { scrollToComponent } from './helper';
+import { useScrollToComponent } from './helper';
 
 function Header() {
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  
+    const scrollToComponent = useScrollToComponent();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -19,17 +23,28 @@ function Header() {
 
   return (
     <>
-      <nav id={HEADER} className="navbar">
+      <nav
+        id={HEADER}
+        className="navbar"
+      >
         <div className="navbar_logo">
-          <img src={img1} alt="Company Logo" className="logo" />
+          <img
+            src={img1}
+            alt="Company Logo"
+            className="logo"
+          />
         </div>
 
-        <div className="menu_icon" 
+        <div 
+        className="menu_icon" 
         onClick={toggleMenu}
         >
-          {isMenuOpen ? (
+          {
+          isMenuOpen 
+          ? (
             <span className="cross">&times;</span>
-          ) : (
+          ) 
+          : (
             <>
               <span className="dot"></span>
               <span className="dot"></span>
@@ -49,7 +64,9 @@ function Header() {
             About
           </div>
 
-          <div className="navbar_items" onClick={() => {
+          <div 
+          className="navbar_items" 
+          onClick={() => {
             // toggleProductsDropdown();
             scrollToComponent(PRODUCTS);
             closeAllMenus();

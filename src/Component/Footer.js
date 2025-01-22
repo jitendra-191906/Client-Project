@@ -18,10 +18,13 @@ import {
   HEADER,
   CATEGORIES
 } from "../constants";
-import { scrollToComponent } from "./helper";
+import { useScrollToComponent } from "./helper";
 
 
 const Footer = () => {
+
+  const scrollToComponent = useScrollToComponent();
+
   return (
     <footer className="footer">
 
