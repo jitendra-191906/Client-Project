@@ -185,9 +185,9 @@ const CategoryWiseProducts = () => {
         <>
             <div className='products-page'>
                 <div className='products-page-inner'>
-                    <SlideShow
+                    {/* <SlideShow
                         slides={getSlidesByScreen(pathname)}
-                    />
+                    /> */}
                     <Heading
                         text={getHeadingTextByScreen(pathname)}
                     />

@@ -12,23 +12,19 @@
   align-items: center;
   justify-content: center;
   width: -webkit-fill-available;
-  padding: 20px;
 }
 
 .products-page-product-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
-  padding: 20px 0;
+  padding: 10px;
   width: -webkit-fill-available;
 }
 
-/* Product Card */
 .product-card-layout {
   background: #fff;
-  /* border: 1px solid #ddd; */
   border-radius: 8px;
-  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -39,7 +35,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Image Section */
 .product-card-img-sec {
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -48,8 +43,8 @@
 }
 
 .product-card-img {
-  width: 100%;
-  height: 100%;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
   object-fit: cover;
 }
 
@@ -61,91 +56,34 @@
   color: #333;
 }
 
-/* Testimonials-style slideshow container */
-.testimonials_slideshow {
-  width: 100%;
-  /* height: 60vh; Set to 50% of the viewport height */
-  position: relative;
-  overflow: hidden;
-}
-
-/* Individual slide container */
-.testimonial_slide {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
-
-}
-
-/* Slide background */
-.testimonial_slide_bg {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-/* Text overlay */
-
-
-
-
-/* Description styling */
-
-/* Dots Styling (similar to testimonials) */
-.slick-dots {
-  bottom: 10px;
-}
-
-.slick-dots li button:before {
-  font-size: 12px;
-  color: white;
-  opacity: 0.8;
-}
-
-.slick-dots li.slick-active button:before {
-  color: #ff5722;
-}
-
-/* Fade-in animation for text overlay */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+@media (max-width:1349px){
+  .products-page-product-section {
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+   
   }
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .testimonial_text_overlay {
-    bottom: 15%;
-    left: 5%;
-    max-width: 90%;
-  }
-
-  .testimonial_slide_title {
-    font-size: 2rem;
-  }
-
-  .testimonial_slide_description {
-    font-size: 1rem;
+@media (max-width:625px){
+  .products-page-product-section {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+   
   }
 }
+@media (max-width:509px){
+  .products-page-product-section {
 
-@media (max-width: 480px) {
-  .testimonial_slide_title {
-    font-size: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+   
+  }
+  .product-card-name{
+    font-size: 0.8rem;
   }
 
-  .testimonial_slide_description {
-    font-size: 0.9rem;
+ 
+} 
+@media (max-width:299px){
+  .products-page-product-section {
+
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+   
   }
-}
+} 
