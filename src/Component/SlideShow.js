@@ -3,37 +3,30 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../Style/slideshow.css';
-import img1 from '../Images/Granite_design/GraniteFlooring.jpeg';
-import img2 from '../Images/Indoor_design/TileFlooring.jpg';
+// import img1 from '../Images/Granite_design/GraniteFlooring.jpeg';
+import img2 from '../Images/Marble_design/jaipur.jpg';
 import img3 from '../Images/Marble_design/image3show.jpg';
-import img4 from '../Images/Bathroom_design/showroom_interior.jpeg';
-import img5 from '../Images/Marble_design/image3show.jpg';
+import kitchenImage1 from '../Images/Kitchen_design/kitchen_flooring_1.jpg';
+
+// import bathroomImage1 from '../Images/Bathroom_design/bathroom_flooring_1.jpg';
+import bathroomImage2 from '../Images/Bathroom_design/bathroom_flooring_2.jpeg';
+import bathroomImage3 from '../Images/Bathroom_design/bathroom_flooring_3.jpg';
 
 const slides = [
   {
-    image: img1,
-    title: "Elegant Granite Flooring",
-    description: "Bring timeless beauty to your home with granite floors.",
+    image: kitchenImage1,
   },
   {
     image: img2,
-    title: "Modern Tile Designs",
-    description: "Upgrade your spaces with tiles crafted for durability and style.",
+  },
+  {
+    image:bathroomImage2,
   },
   {
     image: img3,
-    title: "Custom Flooring Solutions",
-    description: "Tailored solutions for your dream interiors.",
   },
   {
-    image: img4,
-    title: "Custom Flooring Solutions",
-    description: "Tailored solutions for your dream interiors.",
-  },
-  {
-    image: img3,
-    title: "Custom Flooring Solutions",
-    description: "Tailored solutions for your dream interiors.",
+    image: bathroomImage3,
   },
 ];
 
