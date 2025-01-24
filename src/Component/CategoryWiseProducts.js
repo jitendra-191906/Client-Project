@@ -93,7 +93,7 @@ const Heading = (props) => {
 
     return (
         <>
-            <h2 className='website_heading_text'>
+            <h2 className='Product_website_heading_text'>
                 {text}
             </h2>
         </>

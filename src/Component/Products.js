@@ -13,7 +13,7 @@ const ProductSection = (props) => {
       className="home_product_section"
     >
 
-      <div className="home_product_title website_heading_text">
+      <div className="home_product_title">
         <h2>
           {title}
         </h2>
@@ -31,13 +31,16 @@ const ProductSection = (props) => {
                 >
                   <div className="home_product_image">
                     <img
+                      className='home_product_card_img'
                       src={product.image}
                       alt={product.name}
                     />
                   </div>
-                  <p className="home_product_name">
-                    {product.name}
-                  </p>
+                  <div className="home_product_container">
+                    <p className="home_product_name">
+                      {product.name}
+                    </p>
+                  </div>
                 </div>
               </React.Fragment>
             )
