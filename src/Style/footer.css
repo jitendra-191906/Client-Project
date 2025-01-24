@@ -87,6 +87,7 @@
   align-items: center;
   gap: 12px;
   width: -webkit-fill-available;
+
 }
 
 .foocon:hover {
@@ -108,6 +109,11 @@
   max-width: 90%;
   text-align: left;
   word-wrap: break-word;
+
+}
+.foocon_text a{
+  text-decoration: none;
+
 }
 
 .social_media {

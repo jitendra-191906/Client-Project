@@ -34,30 +34,6 @@
       font-size: 1.2rem;
 }
 
-.connect_form {
-      display: flex;
-      flex-direction: row;
-}
-
-.input_button {
-      height: 5vh;
-      width: 23vw;
-      border-radius: 12px;
-      padding: 5px 20px 5px 25px;
-      font-size: 1.2rem;
-      border: none;
-}
-
-.connect_button {
-      height: 6.3vh;
-      width: 8vw;
-      border-radius: 13px;
-      border: none;
-      font-size: 1.3rem;
-      padding: 5px 20px 5px 20px;
-      margin-left: -20px;
-      background-color: rgb(163, 161, 161);
-}
 
 .let-connect-bottom {
       display: flex;
@@ -103,7 +79,9 @@
       text-align: left;
       word-wrap: break-word;
 }
-
+.letconnect_text a{
+      text-decoration: none;
+}
 
 @media (max-width:850px) {
       

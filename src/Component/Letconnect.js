@@ -19,22 +19,6 @@ function Letconnect() {
                               <div className="let-connect-top-description">
                                     <p>connect us and get best offers and deals.</p>
                               </div>
-                              {/* <div className="connect_inner">
-                              <div className="connect_form">
-                                    <div className="connect_input">
-                                          <input
-                                                type="text"
-                                                placeholder='Your connect No.'
-                                                className='input_button'
-                                          />
-                                    </div>
-                                    <div className="connect_submit">
-                                          <button className='connect_button'> submit</button>
-
-                                    </div>
-
-                              </div>
-                        </div> */}
                         </div>
 
                         <div className="let-connect-bottom">
@@ -47,7 +31,13 @@ function Letconnect() {
                                           />
                                     </div>
                                     <p className="letconnect_text">
-                                          +91 9694317171 | +91 9694177771
+                                          <a
+                                                href="tel:+919694317171"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                          >
+                                                +91 9694317171
+                                          </a>
                                     </p>
                               </div>
 
@@ -59,9 +49,14 @@ function Letconnect() {
                                           />
                                     </div>
                                     <p className="letconnect_text">
-                                          Near HP Petrol Pump,
-                                          Near Bharat Petrol Pump,
-                                          Kalwad Road, Hathoj, Jaipur
+                                          <a
+                                                href="https://www.google.com/maps/dir//Jaipur+Tiles+Hari+Om+Nagar+Kalwar,+Rajasthan+302032/@26.9610625,75.6683125,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x396c4d005eae0773:0x6445e93422afb4d1!2m2!1d75.6683125!2d26.9610625?entry=ttu&g_ep=EgoyMDI1MDEyMS4wIKXMDSoASAFQAw%3D%3D"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                          >
+                                                Near HP Petrol Pump,
+                                                Kalwad Road, Hathoj, Jaipur
+                                          </a>
                                     </p>
                               </div>
 
@@ -73,7 +68,14 @@ function Letconnect() {
                                           />
                                     </div>
                                     <p className="letconnect_text">
-                                          jaipurtilesandgranite@gmail.com
+                                          <a
+                                                href="mailto:jitendrakumarkct01@gmail.com?subject=Inquiry%20about%20Products&body=Dear%20Team,%0AI%20would%20like%20to%20know%20more%20about..."
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                          >
+                                                jaipurtilesandgranite@gmail.com
+
+                                          </a>
                                     </p>
                               </div>
 

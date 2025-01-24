@@ -9,7 +9,7 @@ import SlideShow from './Component/SlideShow';
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Router />
       <Googlemap />
       <Footer />
