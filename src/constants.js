@@ -9,7 +9,11 @@ export const GOOGLE_MAP = "GOOGLE_MAP";
 export const WHY_TO_CHOOSE = "WHY_TO_CHOOSE";
 export const CATEGORIES = "CATEGORIES";
 export const MARBELS = "MARBEL";
-export const TILES = "TILE";
+export const KITCHEN_TILES = "KITCHEN_TILES";
+export const BATHROOM_TILES = "BATHROOM_TILES";
+export const FLOOR_TILES = "FLOOR_TILES";
+export const OUTDOOR_TILES = "OUTDOOR_TILES";
+
 export const GRANITES = "GRANITE";
 export const PRODUCTS = "PRODUCTS";
 

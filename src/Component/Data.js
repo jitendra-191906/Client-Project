@@ -1,14 +1,17 @@
 import {
     MARBELS,
     GRANITES,
-    TILES
+    KITCHEN_TILES,
+    BATHROOM_TILES,
+    OUTDOOR_TILES,
+    FLOOR_TILES
 } from '../constants'
 import {
     marble,
     granite,
     tile_bathroom,
     tile_floor,
-    tile_indoor,
+    // tile_indoor,
     tile_kitchen,
     tile_outdoor
 } from '../constants.js';
@@ -53,14 +56,14 @@ import marbleImg2 from "../Images/Marble/travertine_marble.jpeg";
 import marbleImg3 from "../Images/Marble/onyx_marble.jpeg";
 import marbleImg4 from "../Images/Marble/statuario_marble.jpeg";
 import marbleImg5 from "../Images/Marble/Italian_marble.jpeg";
-import marbleImg6 from "../Images/Marble/black_marquina_marble.jpeg";
+// import marbleImg6 from "../Images/Marble/black_marquina_marble.jpeg";
 import marbleImg7 from "../Images/Marble/Grey_William_Italian_Marble.jpeg";
 import marbleImg8 from "../Images/Marble/Emperador_Marble.jpeg";
 
-import marbleImage1 from "../Images/Marble_design/marble_flooring_1.jpg";
-import marbleImage2 from "../Images/Marble_design/marble_flooring_2.jpeg";
-import marbleImage3 from "../Images/Marble_design/marble_flooring_3.jpeg";
-import marbleImage4 from "../Images/Marble_design/marble_flooring_4.jpg";
+// import marbleImage1 from "../Images/Marble_design/marble_flooring_1.jpg";
+// import marbleImage2 from "../Images/Marble_design/marble_flooring_2.jpeg";
+// import marbleImage3 from "../Images/Marble_design/marble_flooring_3.jpeg";
+// import marbleImage4 from "../Images/Marble_design/marble_flooring_4.jpg";
 
 import graniteImg5 from '../Images/Granite/Kashmir_White_Granite.jpeg';
 import graniteImg6 from '../Images/Granite/Moon_White_Granite .jpeg';
@@ -69,9 +72,9 @@ import graniteImg8 from '../Images/Granite/Imperial_Red_Granite.jpeg';
 import graniteImg9 from '../Images/Granite/Forest_Green_Granite.jpeg';
 import graniteImg10 from '../Images/Granite/Himalayan_Blue_Granite.jpeg';
 
-import graniteImage1 from '../Images/Granite_design/GraniteFlooring.jpeg';
-import graniteImage2 from '../Images/Granite_design/Granite_img.png';
-import graniteImage3 from '../Images/Granite_design/decorative_granite.jpg';
+// import graniteImage1 from '../Images/Granite_design/GraniteFlooring.jpeg';
+// import graniteImage2 from '../Images/Granite_design/Granite_img.png';
+// import graniteImage3 from '../Images/Granite_design/decorative_granite.jpg';
 
 import kitchen5 from '../Images/Kitchen/Mosaic_Tile.png';
 import kitchen6 from '../Images/Kitchen/Moroccan_Tiles.jpeg';
@@ -80,13 +83,13 @@ import kitchen8 from '../Images/Kitchen/Floral_Patterned_Tiles.jpeg';
 import kitchen9 from '../Images/Kitchen/Geometric_Tiles.jpeg';
 import kitchen10 from '../Images/Kitchen/Chequered_Tiles.jpeg';
 
-import kitchenImage1 from '../Images/Kitchen_design/kitchen_flooring_1.jpg';
-import kitchenImage2 from '../Images/Kitchen_design/kitchen_flooring_2.jpg';
-import kitchenImage3 from '../Images/Kitchen_design/kitchen_flooring_3.jpg';
+// import kitchenImage1 from '../Images/Kitchen_design/kitchen_flooring_1.jpg';
+// import kitchenImage2 from '../Images/Kitchen_design/kitchen_flooring_2.jpg';
+// import kitchenImage3 from '../Images/Kitchen_design/kitchen_flooring_3.jpg';
 
-import bathroomImage1 from '../Images/Bathroom_design/bathroom_flooring_1.jpg';
-import bathroomImage2 from '../Images/Bathroom_design/bathroom_flooring_2.jpeg';
-import bathroomImage3 from '../Images/Bathroom_design/bathroom_flooring_3.jpg';
+// import bathroomImage1 from '../Images/Bathroom_design/bathroom_flooring_1.jpg';
+// import bathroomImage2 from '../Images/Bathroom_design/bathroom_flooring_2.jpeg';
+// import bathroomImage3 from '../Images/Bathroom_design/bathroom_flooring_3.jpg';
 import bathroom5 from '../Images/Bathroom/Chevron_Pattern_Tiles.jpeg';
 import bathroom6 from '../Images/Bathroom/Fish_Scale_Tiles.jpeg';
 import bathroom7 from '../Images/Bathroom/Linear_Strip_Tiles.jpg';
@@ -95,9 +98,9 @@ import bathroom9 from '../Images/Bathroom/Watercolor_Effect_Tiles.jpg';
 import bathroom10 from '../Images/Bathroom/Split_Face_Stone_Tiles.jpg';
 
 
-import floorImage1 from '../Images/Floor_design/floor_tiles_1.jpg';
-import floorImage2 from '../Images/Floor_design/floor_tiles_2.jpg';
-import floorImage3 from '../Images/Floor_design/floor_tiles_3.jpg';
+// import floorImage1 from '../Images/Floor_design/floor_tiles_1.jpg';
+// import floorImage2 from '../Images/Floor_design/floor_tiles_2.jpg';
+// import floorImage3 from '../Images/Floor_design/floor_tiles_3.jpg';
 import floor5 from '../Images/Floor/Metal_Tile.jpeg';
 import floor6 from '../Images/Floor/Pebble _Tiles.jpeg';
 import floor7 from '../Images/Floor/Saltillo_Tiles.jpeg';
@@ -171,30 +174,6 @@ export const homeProductsList = [
         path: granite,
         id: GRANITES,
     },
-
-    {
-        title: "Our Kitchen Tiles Collection",
-        data: [
-            {
-                image: kitchen1,
-                name: "Checkerboard Tile"
-            },
-            {
-                image: kitchen2,
-                name: "Patterned Tile"
-            },
-            {
-                image: kitchen3,
-                name: "Hexagon Tile"
-            },
-            {
-                image: kitchen4,
-                name: "Terrazzo Tile"
-            },
-        ],
-        path: tile_kitchen,
-        id: TILES,
-    },
     {
         title: "Our Bathroom Tiles Collection",
         data: [
@@ -216,54 +195,55 @@ export const homeProductsList = [
             },
         ],
         path: tile_bathroom,
-        id: TILES,
+        id: BATHROOM_TILES,
     },
     {
-        title: "Our Indoor Tiles Collection",
+        title: "Our Kitchen Tiles Collection",
         data: [
             {
-                image: indoor1,
-                name: "Ceramic Tiles"
+                image: kitchen1,
+                name: "Checkerboard Tile"
             },
             {
-                image: indoor2,
-                name: "Glass Tiles"
+                image: kitchen2,
+                name: "Patterned Tile"
             },
             {
-                image: indoor3,
-                name: "Cement Tiles"
+                image: kitchen3,
+                name: "Hexagon Tile"
             },
             {
-                image: indoor4,
-                name: "Mosaic Tile"
+                image: kitchen4,
+                name: "Terrazzo Tile"
             },
         ],
-        path: tile_indoor,
-        id: TILES,
+        path: tile_kitchen,
+        id: KITCHEN_TILES,
     },
-    {
-        title: "Our Outdoor Tiles Collection",
-        data: [
-            {
-                image: outdoor1,
-                name: "Paving Tile"
-            },
-            {
-                image: outdoor2,
-                name: "Concrete Tile"
-            },
-            {
-                image: outdoor3,
-                name: "Wooden Tile"
-            },
-            {
-                image: outdoor4,
-                name: "Natural Stone Tiles"
-            },
-        ],
-        path: tile_outdoor,
-        id: TILES,
-    },
+    // {
+    //     title: "Our Indoor Tiles Collection",
+    //     data: [
+    //         {
+    //             image: indoor1,
+    //             name: "Ceramic Tiles"
+    //         },
+    //         {
+    //             image: indoor2,
+    //             name: "Glass Tiles"
+    //         },
+    //         {
+    //             image: indoor3,
+    //             name: "Cement Tiles"
+    //         },
+    //         {
+    //             image: indoor4,
+    //             name: "Mosaic Tile"
+    //         },
+    //     ],
+    //     path: tile_indoor,
+    //     id: TILES,
+    // },
+    
     {
         title: "Our Floor Tiles Collection",
         data: [
@@ -286,7 +266,30 @@ export const homeProductsList = [
               
         ],
         path: tile_floor,
-        id: TILES,
+        id: FLOOR_TILES,
+    },
+    {
+        title: "Our Outdoor Tiles Collection",
+        data: [
+            {
+                image: outdoor1,
+                name: "Paving Tile"
+            },
+            {
+                image: outdoor2,
+                name: "Concrete Tile"
+            },
+            {
+                image: outdoor3,
+                name: "Wooden Tile"
+            },
+            {
+                image: outdoor4,
+                name: "Natural Stone Tiles"
+            },
+        ],
+        path: tile_outdoor,
+        id: OUTDOOR_TILES,
     },
 ];
 

@@ -8,7 +8,7 @@ import kitchenTilesImage from '../Images/Category_Images/kitchentile.png';
 import floorTilesImage from '../Images/Category_Images/Floortile.png';
 import OutdoorTilesImage from '../Images/Category_Images/outdoor.jpg';
 
-import { CATEGORIES, MARBELS, GRANITES, TILES } from '../constants';
+import { CATEGORIES, MARBELS, GRANITES, BATHROOM_TILES, KITCHEN_TILES, FLOOR_TILES, OUTDOOR_TILES } from '../constants';
 import { useScrollToComponent } from './helper';
 
 const Categories = () => {
@@ -18,10 +18,10 @@ const Categories = () => {
   const categories = [
     { name: "Marble", image: marbleImage, scrollTo: MARBELS },
     { name: "Granite", image: graniteImage, scrollTo: GRANITES },
-    { name: "Bathroom Tiles", image: bathroomTilesImage, scrollTo: TILES },
-    { name: "Kitchen Tiles", image: kitchenTilesImage, scrollTo: TILES },
-    { name: "Floor Tiles", image: floorTilesImage, scrollTo: TILES },
-    { name: "Outdoor Tiles", image: OutdoorTilesImage, scrollTo: TILES }
+    { name: "Bathroom Tiles", image: bathroomTilesImage, scrollTo: BATHROOM_TILES},
+    { name: "Kitchen Tiles", image: kitchenTilesImage, scrollTo: KITCHEN_TILES},
+    { name: "Floor Tiles", image: floorTilesImage, scrollTo: FLOOR_TILES},
+    { name: "Outdoor Tiles", image: OutdoorTilesImage, scrollTo: OUTDOOR_TILES}
 
   ];
 
