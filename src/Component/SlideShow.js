@@ -20,7 +20,7 @@ const slides = [
     image: img2,
   },
   {
-    image:bathroomImage2,
+    image: bathroomImage2,
   },
   {
     image: img3,
@@ -43,23 +43,22 @@ const SlideShow = () => {
   };
 
   return (
-    <div className="testimonials_slideshow">
+    <div className="home_slideshow">
       <Slider {...settings}>
-        {slides.map((slide, index) => (
-          <div key={index} className="testimonial_slide">
-            <div
-              className="testimonial_slide_bg"
-              style={{
-                backgroundImage: `url(${slide.image})`,
-              }}
-            >
-              <div className="testimonial_text_overlay">
-                {/* <h2 className="testimonial_slide_title">{slide.title}</h2> */}
-                {/* <p className="testimonial_slide_description">{slide.description}</p> */}
-              </div>
-            </div>
-          </div>
-        ))}
+        {
+          slides.map((slide, index) => {
+            return (
+              <React.Fragment key={index}>
+                <div className="home_slide">
+                  <div
+                    className="home_slide_bg"
+                    style={{ backgroundImage: `url(${slide.image})` }}
+                  />
+                </div>
+              </React.Fragment>
+            )
+          })
+        }
       </Slider>
     </div>
   );
