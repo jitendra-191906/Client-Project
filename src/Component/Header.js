@@ -58,7 +58,7 @@ function Header() {
                       <div className='icon_menu_dropdown_close'>
                         <div onClick={() => toggleMenu()}>
                           <MdClose
-                            fill='black'
+                            fill='gray'
                             size={26}
                           />
                         </div>
@@ -113,7 +113,7 @@ function Header() {
                   : (
                     <div onClick={() => toggleMenu()}>
                       <CiMenuKebab
-                        fill='black'
+                        fill='gray'
                         size={26}
                       />
                     </div>

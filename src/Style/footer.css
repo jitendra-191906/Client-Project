@@ -31,7 +31,7 @@
 .footer-bottom-sec {
   font-weight: 400;
   color: #4a4545;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -53,14 +53,14 @@
 }
 
 .footer-company-text {
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
 }
 
 .footer_about_section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 1.15rem;
+  /* font-size: 1.15rem; */
   gap: 9px;
 
 }
@@ -77,7 +77,7 @@
   align-items: baseline;
   gap: 10px;
   width: 30%;
-  font-size: 1.15rem;
+  /* font-size: 1.15rem; */
 }
 
 .foocon {
@@ -160,13 +160,13 @@
     gap: 0px
   }
 
-  .footer_about_section,
+  /* .footer_about_section,
   .footer_contact_section {
     font-size: 1.08rem;
-  }
+  } */
 
   .footer-company-text {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     padding: 0px 20px;
   }
 }
@@ -232,7 +232,7 @@
   }
 
   .footer-company-text {
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
     padding: 0px;
   }
 
@@ -242,15 +242,15 @@
 
   .footer_about_section {
     width: 33%;
-    font-size: 1.17rem;
+    /* font-size: 1.17rem; */
   }
 
   .footer_contact_section {
-    font-size: 1.17rem;
+    /* font-size: 1.17rem; */
   }
 
   .footer-bottom-sec {
-    font-size: 1rem;
+    /* font-size: 1rem; */
   }
 }
 

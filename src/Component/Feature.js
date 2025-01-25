@@ -66,12 +66,12 @@ function Feature() {
                           className={`choose_img`}
                         />
                       </div>
-                      <div className="whychoose_card_title">
+                      <div className="whychoose_card_title website_semi_heading_text">
                         <p>
                           {feature.title}
                         </p>
                       </div>
-                      <div className="whychoose_card_description">
+                      <div className="whychoose_card_description website_normal_text">
                         <p>
                           {feature.description}
                         </p>

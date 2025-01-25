@@ -11,7 +11,7 @@
       display: flex;
       flex-direction: column;
       padding: 10px;
-      padding-top: 45px;
+      padding-top: 30px;
       padding-bottom: 30px;
       gap: 5px;
 }
@@ -31,7 +31,7 @@
 
 .let-connect-top-description {
       color: #787676;
-      font-size: 1.2rem;
+      /* font-size: 1.2rem; */
 }
 
 
@@ -53,7 +53,7 @@
 .let_connect_bottom_items {
       display: flex;
       flex-direction: row;
-      font-size: 1.17rem;
+      /* font-size: 1.17rem; */
       justify-content: space-around;
       align-items: center;
       gap: 12px;
@@ -94,6 +94,12 @@
       .let-connect-bottom{
             gap: 12px;
       }
+      .let-connect-top-title{
+            font-size: 2rem;
+      }
+      .let_connect_bottom_items {
+            word-break: break-word;
+      }
 }
 
 @media (max-width:350px) {
@@ -101,9 +107,9 @@
       .let-connect-top-title{
             font-size: 1.8rem;
       }
-      .let-connect-top-description{
+      /* .let-connect-top-description{
             font-size: 1.1rem;
-      }
+      } */
       .let-connect-top{
             gap:0px;
       }

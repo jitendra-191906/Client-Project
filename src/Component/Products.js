@@ -37,7 +37,7 @@ const ProductSection = (props) => {
                     />
                   </div>
                   <div className="home_product_container">
-                    <p className="home_product_name">
+                    <p className="home_product_name website_semi_heading_text">
                       {product.name}
                     </p>
                   </div>

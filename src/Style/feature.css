@@ -51,13 +51,20 @@
 }
 
 .whychoose_card_title{
-      font-size: 1.4rem;
+      /* font-size: 1.4rem; */
       color: #000000db;
       font-weight: 600;
 }
 .whychoose_card_description{
-      font-size: 1.2rem;
+      /* font-size: 1.2rem; */
       text-align: center;
       color: gray;
       height: 75px;
+}
+
+
+@media (max-width:500px) {
+      .whychoose_card_image{
+            width: 70px;
+      }
 }

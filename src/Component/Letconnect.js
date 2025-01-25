@@ -36,7 +36,7 @@ function Letconnect() {
                                                       alt="contact logo"
                                                 />
                                           </div>
-                                          <p className="letconnect_text">
+                                          <p className="letconnect_text website_normal_text">
                                                 +91 9694177771
                                           </p>
                                     </a>
@@ -55,7 +55,7 @@ function Letconnect() {
                                                       alt="location logo"
                                                 />
                                           </div>
-                                          <p className="letconnect_text">
+                                          <p className="letconnect_text website_normal_text">
                                                 Near HP Petrol Pump,
                                                 Kalwad Road, Hathoj, Jaipur
                                           </p>
@@ -75,7 +75,7 @@ function Letconnect() {
                                                       alt="email logo"
                                                 />
                                           </div>
-                                          <p className="letconnect_text">
+                                          <p className="letconnect_text website_normal_text">
                                                 jaipurtilesandgranite@gmail.com
                                           </p>
                                     </a>

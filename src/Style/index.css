@@ -6,24 +6,33 @@
   max-width: 100%;
 }
 
-body{
-     margin: 0px;
-     padding: 0px;
-     box-sizing: border-box;
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-p{
-    margin: 0;
+p {
+  margin: 0;
 }
 
-.h2, h3{
+.h2,
+h3 {
   font-family: system-ui;
 }
 
-.website_heading_text{
+.website_heading_text {
   color: #929090;
   padding: 25px 0px;
   font-size: 1.65rem;
+}
+
+.website_semi_heading_text {
+  font-size: 1.25rem;
+}
+
+.website_normal_text {
+  font-size: 1.1rem;
 }
 
 /* .website_heading_text {
@@ -33,16 +42,106 @@ p{
   color: #333;
 } */
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   width: 19px;
   height: 18px;
   border-radius: 50%;
   background-color: #cdcdcd;
 }
 
-.slick-prev{
-  left:-20px;
+.slick-prev {
+  left: -20px;
 }
-.slick-next{
+
+.slick-next {
   right: -20px;
+}
+
+
+@media (max-width: 1000px) {
+  .website_heading_text {
+    font-size: 1.5rem;
+    padding: 15px 0px;
+  }
+  .website_semi_heading_text {
+    font-size: 1.15rem;
+  }
+  .website_normal_text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .website_heading_text {
+    font-size: 1.35rem;
+    padding-top: 0px;
+  }
+  .website_semi_heading_text {
+    font-size: 1.05rem;
+  }
+  .website_normal_text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .website_heading_text {
+    font-size: 1.2rem;
+  }
+  .website_semi_heading_text {
+    font-size: 0.99rem;
+  }
+  .website_normal_text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .website_heading_text {
+    font-size: 1.02rem;
+  }
+  .website_semi_heading_text {
+    font-size: 0.95rem;
+  }
+  .website_normal_text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .website_heading_text {
+    font-size: 0.85rem;
+  }
+  .website_semi_heading_text {
+    font-size: 0.85rem;
+  }
+  .website_normal_text {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 300px) {
+  .website_heading_text {
+    font-size: 0.75rem;
+  }
+  .website_semi_heading_text {
+    font-size: 0.75rem;
+  }
+  .website_normal_text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 250px) {
+  .website_heading_text {
+    font-size: 0.65rem;
+  }
+  .website_semi_heading_text {
+    font-size: 0.65rem;
+  }
+  .website_normal_text {
+    font-size: 0.9rem;
+  }
 }

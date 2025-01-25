@@ -125,7 +125,7 @@ import outdoor10 from '../Images/Outdoor/Concrete_Tiles.png';
 // Home Products 
 export const homeProductsList = [
     {
-        title: "Explore our Marble Stone",
+        title: "Explore Our Marble Stone",
         data: [
             {
                 image: image1,
@@ -149,7 +149,7 @@ export const homeProductsList = [
     },
 
     {
-        title: "Explore our Granite Collection",
+        title: "Our Granite Collection",
         data: [
             {
                 image: graniteImg1,
@@ -173,7 +173,7 @@ export const homeProductsList = [
     },
 
     {
-        title: "Explore our Kitchen Tiles Collection",
+        title: "Our Kitchen Tiles Collection",
         data: [
             {
                 image: kitchen1,
@@ -196,7 +196,7 @@ export const homeProductsList = [
         id: TILES,
     },
     {
-        title: "Explore our Bathroom Tiles Collection",
+        title: "Our Bathroom Tiles Collection",
         data: [
             {
                 image: bathroom1,
@@ -219,7 +219,7 @@ export const homeProductsList = [
         id: TILES,
     },
     {
-        title: "Explore our Indoor Tiles Collection",
+        title: "Our Indoor Tiles Collection",
         data: [
             {
                 image: indoor1,
@@ -242,7 +242,7 @@ export const homeProductsList = [
         id: TILES,
     },
     {
-        title: "Explore our Outdoor Tiles Collection",
+        title: "Our Outdoor Tiles Collection",
         data: [
             {
                 image: outdoor1,
@@ -265,7 +265,7 @@ export const homeProductsList = [
         id: TILES,
     },
     {
-        title: "Explore our Floor Tiles Collection",
+        title: "Our Floor Tiles Collection",
         data: [
             {
                 image: floor1,

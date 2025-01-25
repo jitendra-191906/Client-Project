@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-company-text">
-              <p>
+              <p className="website_semi_heading_text">
                 Jaipur Tiles and granites to provide elegant look to your space
               </p>
             </div>
@@ -52,53 +52,53 @@ const Footer = () => {
           <div className="footer_about_section">
 
             <div
-              className="about_item"
+              className="about_item website_normal_text"
               onClick={() => scrollToComponent(HEADER)}
             >
               Home
             </div>
 
             <div
-              className="about_item"
+              className="about_item website_normal_text"
               onClick={() => scrollToComponent(CATEGORIES)}
             >
               Categories
             </div>
 
-            <div
+            {/* <div
               className="about_item"
               onClick={() => scrollToComponent(ABOUT_US)}
             >
               About
-            </div>
+            </div> */}
 
             <div
-              className="about_item"
+              className="about_item website_normal_text"
               onClick={() => scrollToComponent(WHY_TO_CHOOSE)}
             >
               Why to Choose
             </div>
 
             <div
-              className="about_item"
+              className="about_item website_normal_text"
               onClick={() => scrollToComponent(LETS_CONNECT)}
             >
               Contact Us
             </div>
 
             <div
-              className="about_item"
+              className="about_item website_normal_text"
               onClick={() => scrollToComponent(TESTIMONIALS)}
             >
               Testimonials
             </div>
 
-            <div
+            {/* <div
               className="about_item"
               onClick={() => scrollToComponent(GOOGLE_MAP)}
             >
               Sitemap
-            </div>
+            </div> */}
 
           </div>
 
@@ -117,7 +117,7 @@ const Footer = () => {
                     alt="contact logo"
                   />
                 </div>
-                <p className="foocon_text">
+                <p className="foocon_text website_normal_text">
                   +91 9694177771
                 </p>
               </a>
@@ -137,7 +137,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                   />
                 </div>
-                <p className="foocon_text">
+                <p className="foocon_text website_normal_text">
                   Near HP Petrol Pump,
                   Kalwad Road, Hathoj, Jaipur
                 </p>
@@ -158,7 +158,7 @@ const Footer = () => {
                   />
                 </div>
 
-                <p className="foocon_text">
+                <p className="foocon_text website_normal_text">
                   jaipurtilesandgranite@gmail.com
                 </p>
               </a>
@@ -230,7 +230,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          <div className="website_normal_text">
             <p>
               &copy; 2025 All rights reserved.
             </p>
