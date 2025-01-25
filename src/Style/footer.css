@@ -87,7 +87,8 @@
   align-items: center;
   gap: 12px;
   width: -webkit-fill-available;
-
+  color: white;
+  text-decoration: none;
 }
 
 .foocon:hover {

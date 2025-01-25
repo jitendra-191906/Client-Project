@@ -105,61 +105,63 @@ const Footer = () => {
           <div className="footer_contact_section">
 
             <div className="foocon">
-              <div className="foocon_img">
-                <img
-                  src={ContactImg}
-                  alt="contact logo"
-                />
-              </div>
-              <p className="foocon_text">
-                <a
-                  href="tel:+919694317171"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <a
+                href="tel:+919694317171"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="foocon"
+              >
+                <div className="foocon_img">
+                  <img
+                    src={ContactImg}
+                    alt="contact logo"
+                  />
+                </div>
+                <p className="foocon_text">
                   +91 9694317171
-                </a>
-              </p>
+                </p>
+              </a>
             </div>
 
             <div className="foocon">
-              <div className="foocon_img">
-                <img
-                  src={LocationImg}
-                  alt="location logo"
-                  rel="noopener noreferrer"
-                />
-              </div>
-              <p className="foocon_text">
-                <a
-                  href="https://www.google.com/maps/dir//Jaipur+Tiles+Hari+Om+Nagar+Kalwar,+Rajasthan+302032/@26.9610625,75.6683125,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x396c4d005eae0773:0x6445e93422afb4d1!2m2!1d75.6683125!2d26.9610625?entry=ttu&g_ep=EgoyMDI1MDEyMS4wIKXMDSoASAFQAw%3D%3D"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <a
+                href="https://www.google.com/maps/dir//Jaipur+Tiles+Hari+Om+Nagar+Kalwar,+Rajasthan+302032/@26.9610625,75.6683125,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x396c4d005eae0773:0x6445e93422afb4d1!2m2!1d75.6683125!2d26.9610625?entry=ttu&g_ep=EgoyMDI1MDEyMS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="foocon"
+              >
+                <div className="foocon_img">
+                  <img
+                    src={LocationImg}
+                    alt="location logo"
+                    rel="noopener noreferrer"
+                  />
+                </div>
+                <p className="foocon_text">
                   Near HP Petrol Pump,
                   Kalwad Road, Hathoj, Jaipur
-                </a>
-
-              </p>
+                </p>
+              </a>
             </div>
 
             <div className="foocon">
-              <div className="foocon_img">
-                <img
-                  src={EmailImg}
-                  alt="email logo"
-                />
-              </div>
-              <p className="foocon_text">
-                <a
-                  href="mailto:https://mail.google.com/jaipurtilesandgranite@gmail.com?subject=Inquiry%20about%20Products&body=Dear%20Team,%0AI%20would%20like%20to%20know%20more%20about..."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  jaipurtilesandgranite@gmail.com
+              <a
+                href="mailto:https://mail.google.com/jaipurtilesandgranite@gmail.com?subject=Inquiry%20about%20Products&body=Dear%20Team,%0AI%20would%20like%20to%20know%20more%20about..."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="foocon"
+              >
+                <div className="foocon_img">
+                  <img
+                    src={EmailImg}
+                    alt="email logo"
+                  />
+                </div>
 
-                </a>
-              </p>
+                <p className="foocon_text">
+                  jaipurtilesandgranite@gmail.com
+                </p>
+              </a>
             </div>
 
           </div>
