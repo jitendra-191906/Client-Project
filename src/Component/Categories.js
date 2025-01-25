@@ -6,6 +6,8 @@ import graniteImage from '../Images/Category_Images/Granite.png';
 import bathroomTilesImage from '../Images/Category_Images/bathroomtile.png';
 import kitchenTilesImage from '../Images/Category_Images/kitchentile.png';
 import floorTilesImage from '../Images/Category_Images/Floortile.png';
+import OutdoorTilesImage from '../Images/Category_Images/outdoor.jpg';
+
 import { CATEGORIES, MARBELS, GRANITES, TILES } from '../constants';
 import { useScrollToComponent } from './helper';
 
@@ -18,7 +20,9 @@ const Categories = () => {
     { name: "Granite", image: graniteImage, scrollTo: GRANITES },
     { name: "Bathroom Tiles", image: bathroomTilesImage, scrollTo: TILES },
     { name: "Kitchen Tiles", image: kitchenTilesImage, scrollTo: TILES },
-    { name: "Floor Tiles", image: floorTilesImage, scrollTo: TILES }
+    { name: "Floor Tiles", image: floorTilesImage, scrollTo: TILES },
+    { name: "Outdoor Tiles", image: OutdoorTilesImage, scrollTo: TILES }
+
   ];
 
   return (
@@ -52,11 +56,11 @@ const Categories = () => {
                         className="category-card-image"
                       />
                     </div>
-
-                    <p className="category-card-name">
-                      {category.name}
-                    </p>
-
+                    <div className="category_product_name">
+                      <p className="category-card-name">
+                        {category.name}
+                      </p>
+                    </div>
                   </div>
                 </React.Fragment>
               )
