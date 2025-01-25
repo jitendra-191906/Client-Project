@@ -114,41 +114,26 @@
 @media (max-width:1041px) {
   .home_product_grid {
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-
-
   }
 
   .home_product_title h2 {
     font-size: 1.4rem;
-
   }
 
   .home_explore_button {
     font-size: .8rem;
-
   }
 
 }
 
-@media (max-width: 959px) {
-  .home_product_grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-
-
-  }
-
-  .home_product_title h2 {
-    font-size: 1.4rem;
-
+@media (max-width: 1000px) {
+  .home_product_grid> :last-child {
+    display: none;
   }
 }
+
 
 @media (max-width: 879px) {
-  .home_product_grid {
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-
-
-  }
 
   .home_product_title h2 {
     font-size: 1.3rem;
@@ -163,9 +148,7 @@
 
 @media (max-width: 759px) {
   .home_product_grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-
-
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
   .home_product_title h2 {
@@ -175,11 +158,9 @@
   }
 }
 
-@media (max-width: 679px) {
+@media (max-width: 690px) {
   .home_product_grid {
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-
-
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   }
 
   .home_product_title h2 {
@@ -199,18 +180,31 @@
 }
 
 
-@media (max-width: 599px) {
+@media (max-width: 620px) {
   .home_product_grid {
     grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
   }
 
 }
 
-@media (max-width: 389px) {
+@media (max-width: 608px) {
+  .home_product_grid> :last-child {
+    display: block;
+  }
+
+}
+
+@media (max-width: 408px) {
   .home_product_grid {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+
+}
 
 
+@media (max-width: 335px) {
+  .home_product_grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   }
 
   .home_explore_button {
@@ -219,11 +213,9 @@
   }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 292px) {
   .home_product_grid {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-
-
   }
 
   .home_explore_button {
