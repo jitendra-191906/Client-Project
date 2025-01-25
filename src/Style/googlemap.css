@@ -3,6 +3,7 @@
       flex-direction: column;
       text-align: center;
       width: 100%;
+      /* background-image: url("../Images/Background_images/4857390.jpg");  */
 }
 
 .map-container iframe {

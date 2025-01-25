@@ -28,9 +28,11 @@ const Categories = () => {
     >
       <div className='categories-inner'>
 
-        <h2 className='website_heading_text'>
-          Our Categories
-        </h2>
+        <div className='website_heading_text'>
+          <h2 >
+            Our Categories
+          </h2>
+        </div>
 
         <div className="categories-section-bottom">
           {

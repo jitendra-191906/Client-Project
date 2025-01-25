@@ -93,9 +93,11 @@ const Heading = (props) => {
 
     return (
         <>
-            <h2 className='Product_website_heading_text'>
+        <div className='website_heading_text'>
+            <h2 >
                 {text}
             </h2>
+            </div>
         </>
     )
 }

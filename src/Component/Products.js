@@ -13,7 +13,7 @@ const ProductSection = (props) => {
       className="home_product_section"
     >
 
-      <div className="home_product_title">
+      <div className="home_product_title website_heading_text">
         <h2>
           {title}
         </h2>
@@ -53,7 +53,7 @@ const ProductSection = (props) => {
           className="home_explore_button"
           onClick={() => onNavigate()}
         >
-          Show More
+          Show More... 
         </button>
       </div>
 

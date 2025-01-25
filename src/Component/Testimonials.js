@@ -76,13 +76,15 @@ function Testimonials() {
   };
 
   return (
-    <div 
-    id={TESTIMONIALS}
-    className="testimonials_main">
+    <div
+      id={TESTIMONIALS}
+      className="testimonials_main">
       <div className="testimonial_inner">
-        <h2 className="website_heading_text">
-          “Our clients often tell us.....”
-        </h2>
+        <div className="website_heading_text">
+          <h2>
+            “Our clients often tell us.....”
+          </h2>
+        </div>
         <Slider {...settings} className="testimonial_slider">
           {
             customerReviewsList.map((customer, index) => (
