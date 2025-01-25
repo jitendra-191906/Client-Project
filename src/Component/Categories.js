@@ -56,8 +56,8 @@ const Categories = () => {
                         className="category-card-image"
                       />
                     </div>
-                    <div className="category_product_name">
-                      <p className="category-card-name">
+                    <div className="category-card-name website_semi_heading_text">
+                      <p>
                         {category.name}
                       </p>
                     </div>
