@@ -25,7 +25,7 @@ function Letconnect() {
 
                               <div className="let_connect_bottom_items">
                                     <a
-                                          href="tel:+919694317171"
+                                          href="tel:+919694177771"
                                           target="_blank"
                                           rel="noopener noreferrer"
                                           className="let_connect_bottom_items"
@@ -37,7 +37,7 @@ function Letconnect() {
                                                 />
                                           </div>
                                           <p className="letconnect_text">
-                                                +91 9694317171
+                                                +91 9694177771
                                           </p>
                                     </a>
                               </div>
@@ -64,7 +64,7 @@ function Letconnect() {
 
                               <div className="let_connect_bottom_items">
                                     <a
-                                          href="mailto:jitendrakumarkct01@gmail.com?subject=Inquiry%20about%20Products&body=Dear%20Team,%0AI%20would%20like%20to%20know%20more%20about..."
+                                          href="mailto:jaipurtilesandgranite@gmail.com?subject=Inquiry%20about%20Products&body=Dear%20Team,%0AI%20would%20like%20to%20know%20more%20about..."
                                           target="_blank"
                                           rel="noopener noreferrer"
                                           className="let_connect_bottom_items"

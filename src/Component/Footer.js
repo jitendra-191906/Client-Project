@@ -106,7 +106,7 @@ const Footer = () => {
 
             <div className="foocon">
               <a
-                href="tel:+919694317171"
+                href="tel:+919694177771"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="foocon"
@@ -118,7 +118,7 @@ const Footer = () => {
                   />
                 </div>
                 <p className="foocon_text">
-                  +91 9694317171
+                  +91 9694177771
                 </p>
               </a>
             </div>
@@ -146,7 +146,7 @@ const Footer = () => {
 
             <div className="foocon">
               <a
-                href="mailto:https://mail.google.com/jaipurtilesandgranite@gmail.com?subject=Inquiry%20about%20Products&body=Dear%20Team,%0AI%20would%20like%20to%20know%20more%20about..."
+                href="mailto:jaipurtilesandgranite@gmail.com?subject=Inquiry%20about%20Products&body=Dear%20Team,%0AI%20would%20like%20to%20know%20more%20about..."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="foocon"
@@ -173,7 +173,7 @@ const Footer = () => {
             <div className="social-media-inner">
               <div className="social-media-icon-sec">
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/jaipurtilesandgranites?utm_source=qr&igsh=MXJyNDNtdmhrYngwNw=="
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -201,7 +201,7 @@ const Footer = () => {
               </div>
               <div className="social-media-icon-sec">
                 <a
-                  href="https://wa.me/+919694317171"
+                  href="https://wa.me/919694177771"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -215,7 +215,7 @@ const Footer = () => {
               </div>
               <div className="social-media-icon-sec">
                 <a
-                  href="https://www.facebook.com/"
+                  href="https://www.facebook.com/share/15hCAncGMb/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
