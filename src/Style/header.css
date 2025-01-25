@@ -31,7 +31,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: black
+  color: black;
+  font-weight: 400;
 }
 
 .open_links_section {

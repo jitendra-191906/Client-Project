@@ -46,7 +46,7 @@ function Header() {
             />
           </div>
 
-          <div className='header_inner_right'>
+          <div className='header_inner_right website_semi_heading_text '>
             <div
               className="header_icon_menu"
             >
