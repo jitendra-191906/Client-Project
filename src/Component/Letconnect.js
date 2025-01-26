@@ -14,10 +14,10 @@ function Letconnect() {
                         <div className='let-connect-top'>
 
                               <div className="let-connect-top-title">
-                                    <p>Lets  connect!</p>
+                                    <p>Lets  Connect!</p>
                               </div>
                               <div className="let-connect-top-description">
-                                    <p>connect us and get best offers and deals.</p>
+                                    <p>Connect Us And Get Best Offers And Deals.</p>
                               </div>
                         </div>
 
@@ -57,7 +57,7 @@ function Letconnect() {
                                           </div>
                                           <p className="letconnect_text website_normal_text">
                                                 Near HP Petrol Pump,
-                                                Kalwad Road, Hathoj, Jaipur
+                                                Kalwar Road, Hathoj, Jaipur
                                           </p>
                                     </a>
                               </div>

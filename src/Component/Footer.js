@@ -64,14 +64,6 @@ const Footer = () => {
             >
               Categories
             </div>
-
-            {/* <div
-              className="about_item"
-              onClick={() => scrollToComponent(ABOUT_US)}
-            >
-              About
-            </div> */}
-
             <div
               className="about_item website_normal_text"
               onClick={() => scrollToComponent(WHY_TO_CHOOSE)}
@@ -92,14 +84,6 @@ const Footer = () => {
             >
               Testimonials
             </div>
-
-            {/* <div
-              className="about_item"
-              onClick={() => scrollToComponent(GOOGLE_MAP)}
-            >
-              Sitemap
-            </div> */}
-
           </div>
 
           <div className="footer_contact_section">
@@ -139,7 +123,7 @@ const Footer = () => {
                 </div>
                 <p className="foocon_text website_normal_text">
                   Near HP Petrol Pump,
-                  Kalwad Road, Hathoj, Jaipur
+                  Kalwar Road, Hathoj, Jaipur
                 </p>
               </a>
             </div>
@@ -187,7 +171,7 @@ const Footer = () => {
               </div>
               <div className="social-media-icon-sec">
                 <a
-                  href="https://www.youtube.com/"
+                  href="https://youtube.com/@jaipurtilesandgranite?si=ynx-n22DWWR2AlTv"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

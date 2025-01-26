@@ -24,7 +24,7 @@ import image4 from '../Images/Marble/black_marble.png'
 import graniteImg1 from '../Images/Granite/absulate_black.jpeg';
 import graniteImg2 from '../Images/Granite/granite_type_2.png';
 import graniteImg3 from '../Images/Granite/granite_type_3.png';
-import graniteImg4 from '../Images/Granite/granite_type_4.png';
+import graniteImg4 from '../Images/Granite/granite_type_4.jpeg';
 import kitchen1 from '../Images/Kitchen/checkerboard_tiles.jpeg';
 import kitchen2 from '../Images/Kitchen/Patterned_Tiles.jpeg';
 import kitchen3 from '../Images/Kitchen/Hexagon_Tiles.jpg';
