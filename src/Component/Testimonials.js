@@ -44,6 +44,7 @@ function Testimonials() {
     className: "center",
     centerMode: true,
     centerPadding: "60px",
+    // arrow:true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -85,34 +86,36 @@ function Testimonials() {
             “Our clients often tell us.....”
           </h2>
         </div>
-        <Slider {...settings} className="testimonial_slider">
-          {
-            customerReviewsList.map((customer, index) => (
-              <div
-                key={index}
-                className="customer_review"
-              >
-                <div className="customer_review_inner">
-                  <div className="customer_details">
-                    <img
-                      src={customer.profileImg}
-                      alt={`${customer.name}'s profile`}
-                      className="img_customer"
-                    />
-                    <span className="customer_name">
-                      {customer.name}
-                    </span>
-                  </div>
-                  <hr className="hr_heading" />
-                  <div className="customer_review_text">
-                    <p>
-                      {customer.reviewText}
-                    </p>
+        <div className="testimonial_slider">
+          <Slider {...settings} >
+            {
+              customerReviewsList.map((customer, index) => (
+                <div
+                  key={index}
+                  className="customer_review"
+                >
+                  <div className="customer_review_inner">
+                    <div className="customer_details">
+                      <img
+                        src={customer.profileImg}
+                        alt={`${customer.name}'s profile`}
+                        className="img_customer"
+                      />
+                      <span className="customer_name">
+                        {customer.name}
+                      </span>
+                    </div>
+                    <hr className="hr_heading" />
+                    <div className="customer_review_text">
+                      <p>
+                        {customer.reviewText}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-        </Slider>
+              ))}
+          </Slider>
+        </div>
       </div>
     </div>
   );

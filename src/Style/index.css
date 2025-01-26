@@ -93,6 +93,7 @@ h3 {
 @media (max-width: 450px) {
   .website_heading_text {
     font-size: 1.02rem;
+    padding: 0px;
   }
   .website_semi_heading_text {
     font-size: 0.95rem;

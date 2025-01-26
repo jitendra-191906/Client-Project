@@ -63,8 +63,27 @@
 }
 
 
+@media (max-width:950px) {
+      .whychoose_card_description{
+            height: auto;
+      }
+}
+
+
 @media (max-width:500px) {
       .whychoose_card_image{
             width: 70px;
+      }
+}
+
+@media (max-width:350px) {
+      .whychoose_card_image{
+            width: 55px;
+      }
+      .whychoose_card_layout{
+            gap: 4px;
+      }
+      .whychoose_us_inner{
+            padding-bottom: 30px;
       }
 }

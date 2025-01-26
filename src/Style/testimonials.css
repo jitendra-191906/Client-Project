@@ -104,16 +104,53 @@
   .slick-active {
     padding-left: 7vw;
   }
+  .testimonial_inner{
+    padding: 10px;
+  }
+  .testimonial_slider{
+    padding: 0px 11px;
+  }
 }
 
 @media (max-width:400px) {
   .slick-active {
     padding-left: 2vw;
   }
+  .customer_review{
+    padding: 5px;
+  }
+  .customer_review_inner{
+    padding: 10px 7px;
+    width: 300px;
+  }
 }
 
 @media (max-width:370px) {
   .slick-active {
     padding-left: 0px;
+  }
+  .customer_review_inner{
+    width: 275px;
+  }
+}
+
+@media (max-width:342px) {
+ 
+  .customer_review_inner{
+    width: 250px;
+  }
+}
+
+@media (max-width:315px) {
+ 
+  .customer_review_inner{
+    width: 220px;
+  }
+}
+
+@media (max-width:285px) {
+ 
+  .customer_review_inner{
+    width: 195px;
   }
 }

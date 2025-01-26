@@ -59,7 +59,7 @@ function Header() {
                         <div onClick={() => toggleMenu()}>
                           <MdClose
                             fill='gray'
-                            size={26}
+                            size={22}
                           />
                         </div>
                       </div>
@@ -114,7 +114,7 @@ function Header() {
                     <div onClick={() => toggleMenu()}>
                       <CiMenuKebab
                         fill='gray'
-                        size={26}
+                        size={22}
                       />
                     </div>
                   )

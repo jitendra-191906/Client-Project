@@ -41,6 +41,7 @@
 
 .category-card-name {
   color: gray;
+  text-align: center;
 }
 
 @media (max-width: 1270px) {
@@ -99,6 +100,9 @@
   
   .category-card-image-container {
     width: 75px;
+  }
+  .categories-inner{
+    padding-bottom: 30px;
   }
 
 }

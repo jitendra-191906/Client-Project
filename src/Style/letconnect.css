@@ -104,6 +104,9 @@
 
 @media (max-width:350px) {
       
+      .let-connect-bottom{
+            padding: 10px;
+      }
       .let-connect-top-title{
             font-size: 1.8rem;
       }
