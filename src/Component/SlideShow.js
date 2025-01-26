@@ -34,6 +34,9 @@ const SlideShow = () => {
   const settings = {
     dots: true,
     infinite: true,
+    // className:" slider variable-width",
+    // className: "center",
+    // centerMode: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -50,9 +53,9 @@ const SlideShow = () => {
             return (
               <React.Fragment key={index}>
                 <div className="home_slide">
-                  <div
+                  <img
                     className="home_slide_bg"
-                    style={{ backgroundImage: `url(${slide.image})` }}
+                    src={slide.image}
                   />
                 </div>
               </React.Fragment>

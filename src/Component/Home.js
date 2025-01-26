@@ -14,7 +14,7 @@ import Granite from './Granite'
 const Home = () => {
     return (
         <>
-            {/* <SlideShow /> */}
+            <SlideShow />
             <Categories />
             {/* <Marble/> */}
             {/* <Granite/> */}
