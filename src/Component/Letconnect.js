@@ -16,7 +16,7 @@ function Letconnect() {
                               <div className="let-connect-top-title">
                                     <p>Lets  Connect!</p>
                               </div>
-                              <div className="let-connect-top-description">
+                              <div className="let-connect-top-description website_normal_text">
                                     <p>Connect Us And Get Best Offers And Deals.</p>
                               </div>
                         </div>
@@ -28,7 +28,6 @@ function Letconnect() {
                                           href="tel:+919694177771"
                                           target="_blank"
                                           rel="noopener noreferrer"
-                                          className="let_connect_bottom_items"
                                     >
                                           <div className="letconnect_img">
                                                 <img
@@ -36,10 +35,27 @@ function Letconnect() {
                                                       alt="contact logo"
                                                 />
                                           </div>
-                                          <p className="letconnect_text website_normal_text">
-                                                +91 9694177771
-                                          </p>
                                     </a>
+                                    <p className="letconnect_text website_normal_text">
+                                          <a
+                                                href="tel:+919694177771"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className='connect_mobile_no'
+                                          >
+                                                <span >+91 9694177771</span>
+                                          </a>
+                                          <span> | </span>
+                                          <a
+                                                href="tel:+919694317171"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className='connect_mobile_no'
+                                          >
+                                                <span>+91 9694317171</span>
+                                          </a>
+                                    </p>
+
                               </div>
 
                               <div className="let_connect_bottom_items">

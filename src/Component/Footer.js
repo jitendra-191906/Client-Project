@@ -93,7 +93,6 @@ const Footer = () => {
                 href="tel:+919694177771"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="foocon"
               >
                 <div className="foocon_img">
                   <img
@@ -101,10 +100,27 @@ const Footer = () => {
                     alt="contact logo"
                   />
                 </div>
-                <p className="foocon_text website_normal_text">
-                  +91 9694177771
-                </p>
               </a>
+
+              <p className="foocon_text website_normal_text">
+                <a
+                  href="tel:+919694177771"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className='connect_mobile_no'
+                >
+                  <span >+91 9694177771</span>
+                </a>
+                <span> | </span>
+                <a
+                  href="tel:+919694317171"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className='connect_mobile_no'
+                >
+                  <span>+91 9694317171</span>
+                </a>
+              </p>
             </div>
 
             <div className="foocon">

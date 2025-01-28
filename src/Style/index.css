@@ -6,7 +6,7 @@
   max-width: 100%;
 }
 
-body {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -57,9 +57,11 @@ h3 {
     font-size: 1.5rem;
     padding: 15px 0px;
   }
+
   .website_semi_heading_text {
     font-size: 1.15rem;
   }
+
   .website_normal_text {
     font-size: 1rem;
   }
@@ -70,9 +72,11 @@ h3 {
     font-size: 1.35rem;
     padding-top: 0px;
   }
+
   .website_semi_heading_text {
     font-size: 1.05rem;
   }
+
   .website_normal_text {
     font-size: 0.9rem;
   }
@@ -82,9 +86,11 @@ h3 {
   .website_heading_text {
     font-size: 1.2rem;
   }
+
   .website_semi_heading_text {
     font-size: 0.99rem;
   }
+
   .website_normal_text {
     font-size: 0.9rem;
   }
@@ -94,10 +100,13 @@ h3 {
   .website_heading_text {
     font-size: 1.02rem;
     padding: 0px;
+    padding-bottom: 20px;
   }
+
   .website_semi_heading_text {
     font-size: 0.95rem;
   }
+
   .website_normal_text {
     font-size: 0.9rem;
   }
@@ -106,10 +115,13 @@ h3 {
 @media (max-width: 350px) {
   .website_heading_text {
     font-size: 0.85rem;
+    padding-bottom: 10px;
   }
+
   .website_semi_heading_text {
     font-size: 0.85rem;
   }
+
   .website_normal_text {
     font-size: 0.9rem;
   }
@@ -120,9 +132,11 @@ h3 {
   .website_heading_text {
     font-size: 0.75rem;
   }
+
   .website_semi_heading_text {
     font-size: 0.75rem;
   }
+
   .website_normal_text {
     font-size: 0.9rem;
   }
@@ -132,9 +146,11 @@ h3 {
   .website_heading_text {
     font-size: 0.65rem;
   }
+
   .website_semi_heading_text {
     font-size: 0.65rem;
   }
+
   .website_normal_text {
     font-size: 0.9rem;
   }

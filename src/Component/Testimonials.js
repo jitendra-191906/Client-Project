@@ -81,7 +81,7 @@ function Testimonials() {
       id={TESTIMONIALS}
       className="testimonials_main">
       <div className="testimonial_inner">
-        <div className="website_heading_text">
+        <div className="website_heading_text testimonial_title">
           <h2>
             “Our clients often tell us.....”
           </h2>
